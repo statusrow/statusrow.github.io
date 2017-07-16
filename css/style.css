@@ -1,0 +1,54 @@
+body, html {
+  height: 100%
+}
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: #e5eefb;
+  height: 100%;
+}
+.main-container {
+  height: 98vh;
+  background-image: url('../images/ocean.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 90px;
+  letter-spacing: 10px;
+  background-color: black;
+  display: inline;
+  padding: 15px 30px;
+  color: #e5eefb;
+}
+h2 {
+  color: #e5eefb;
+  font-size: 100px;
+  margin: 0 auto;
+}
+p {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.countdown {
+  display: inline-block;
+  margin: 0 10px;
+  width: 200px;
+  background-color: rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px 0 #000;
+}
+.countdown > p {
+  margin: 0 0 15px;
+  font-size: 20px;
+  color: #e5eefb;
+}
