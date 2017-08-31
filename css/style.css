@@ -22,6 +22,15 @@
  p {
    font-size: 16px;
  }
+
+@media (max-width: 576px) {
+   h1 {
+     font-size: 80px;
+   }
+   h2 {
+     font-size: 22px;
+   }
+}
  .italic {
    font-style: italic;
  }
@@ -87,6 +96,16 @@
 }
 .countdown--time h2 {
   margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .countdown-container {
+    height: auto;
+    margin: 100px 0 0 0;
+  }
+  .countdown-container .countdown--time-container {
+    margin: 10px;
+  }
 }
 .dark-mask {
   background: rgba(255,255,255,0.7);
