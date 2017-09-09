@@ -114,3 +114,24 @@
 .dark-mask > p {
   color: #fff;
 }
+#team {
+  margin: 60px auto;
+}
+#team .row {
+  margin: 60px auto;
+}
+#team h2 {
+  /*background-color: blue;*/
+  font-weight: bold;
+
+}
+.avater-container {
+  text-align: center;
+}
+.avatar {
+  max-width: 300px;
+  border-radius: 300px;
+}
+.quote {
+  font-style: italic;
+}
