@@ -10,6 +10,7 @@ layout: page
         <div>
           <div class="block">
             <h1>{{ page.title }}</h1>
+            <h3>{{ page.subtitle }}</h3>
             <div class="post-info-wrapper">
               <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
@@ -21,6 +22,23 @@ layout: page
     </div>
   </section>
 </div>
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>We can't do it without you</h2>
+          <p>In order for us to reach our fundraising target for charity, we need your help to get to the start line.</p>
+          <a class="btn btn-default btn-call-to-action" href="https://www.gofundme.com/StatusRow" target="_blank">Donate now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <p class="text-center" style="padding: 30px;">
   <a href="{{ site.baseurl }}/blog">Back to blog</a>
 </p>
