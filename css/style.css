@@ -135,9 +135,15 @@
 .quote {
   font-style: italic;
 }
-#intro .block img {
+#intro .block .post-content p img {
   width: 50%;
   padding: 0;
   position: relative;
   transform: translateX(50%);
+}
+#mission {
+  margin: 60px auto;
+}
+#mission h2 {
+  margin: 60px auto 30px;
 }
