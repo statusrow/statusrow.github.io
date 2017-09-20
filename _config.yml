@@ -15,7 +15,7 @@ keep_files:
 
 # Site settings
 title: Status Row
-subtitle: "World Record Attempt: Fastest Female Trio to Row the Atlantic"
+subtitle: "Talisker Whisky Atlantic Challenge 2018 | World Record Attempt: Fastest Female Trio to Row the Atlantic"
 url: "http://www.statusrow.com/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
