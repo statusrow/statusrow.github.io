@@ -147,3 +147,13 @@
 #mission h2 {
   margin: 60px auto 30px;
 }
+.instagram-feed {
+  padding: 30px 0 60px;
+  background-color: #f5f5f5;
+}
+.credit {
+  color: #7B7B7B;
+  font-size: 10px;
+  text-align: right;
+  padding-right: 10px;
+}
