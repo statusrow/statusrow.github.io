@@ -104,7 +104,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: url("../assets/images/status_rowing.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: center;
   padding: 100px 0 280px 0;
   position: relative;
 }
@@ -393,7 +393,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {
