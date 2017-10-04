@@ -108,6 +108,13 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0 280px 0;
   position: relative;
 }
+@media(min-width:768px) {
+    #slider {
+        background-attachment: inherit !important;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
 #slider:before {
   content: "";
   position: absolute;
