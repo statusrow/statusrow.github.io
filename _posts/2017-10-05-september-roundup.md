@@ -16,7 +16,7 @@ So what have we done?
 - Told our friends
 - Told our families!
 - Opened a bank account for the team (so you lovely birds can <a href="/support">help us with our campaign</a>)
-- Attended a screening of 'A Plastic Whale' where we saw just how detrimental plastic is for our marine wildlife.
+- Attended a screening of <a href="http://news.sky.com/feature/sky-ocean-rescue-a-plastic-whale-10917187" target="_blank">'A Plastic Whale'</a> where we saw just how detrimental plastic is for our marine wildlife.
 - We gave up #singleuseplastic bottles and invested (a whole 49p, bargain!) into reusable bottles
 - Jess went to Bermuda to scout out local charities, tell her nonplussed father about the row and get a tan.
 - Caroline & Suze took part in the <a href="/2017/09/16/thorpe-bay-beach-clean.html">#GreatBritishBeachClean</a> and spent the day collecting garbage and seeing firsthand the horrible effects of plastic pollution on our seas and shores.
