@@ -76,8 +76,8 @@ header .navbar-brand {
   padding-top: 5px;
 }
 header .navbar-brand img {
-  width: 50px;
-  border-radius: 50px;
+  height: 70px;
+  margin-top: -15px;
 }
 header .navbar-default {
   background: none;
@@ -163,7 +163,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #intro .block.highlight {
-  background-color: #428bca;
+  background-color: #56AEC8;
   padding: 5px;
   padding-bottom: 10px;
   text-align: center;
@@ -292,7 +292,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
-  background: #655E7A;
+  background: #344359;
   color: #fff;
   padding: 10px 20px;
 }

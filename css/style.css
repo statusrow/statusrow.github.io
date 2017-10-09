@@ -44,6 +44,12 @@
  }
 .btn-primary {
   padding: 10px 20px;
+  background-color: #40BDD9;
+  border-color: #56AEC8;
+}
+.btn-primary:hover {
+  background-color: #56AEC8;
+  border-color: #56AEC8;
 }
 .btn-lg {
   padding: 15px 40px;
