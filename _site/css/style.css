@@ -142,10 +142,8 @@
   font-style: italic;
 }
 #intro .block .post-content p img {
-  width: 50%;
+  width: 49%;
   padding: 0;
-  position: relative;
-  transform: translateX(50%);
 }
 #mission {
   margin: 60px auto;
