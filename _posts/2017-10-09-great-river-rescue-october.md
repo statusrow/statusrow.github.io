@@ -1,10 +1,11 @@
 ---
 layout: post
-title: The Thames21 Great River Rescure
+title: The Thames21 Great River Rescue
 subtitle: Watling Park, Burnt Oak
 date: 2017-10-09
 author: Caroline & Jess
 ---
+[thames21]: http://www.thames21.org.uk/
 [great_river_rescue]: http://www.thames21.org.uk/GreatRiverRescue/
 
 Is there anything better than a lazy day inside on a rainy Saturday? A few weeks ago I probably would have said no but that was before I spent the day with some awesome people clearing up litter in Watling Park in Burnt Oak.
@@ -21,7 +22,7 @@ Once we were fully briefed it was time to squeeze into our waders - it’s harde
 
 I teamed up with Meek (apologies as I’m not sure on spelling) - a local man, passionate about doing good in his community and a regular at these events. With his guidance we were soon plastic snipers, grabbing every tiny bit, and diving into the river. Some of us more… enthusiastically… than others. One bad step had Jess elbow deep in the creek!
 
-Spirits high, we stumbled on a plastic gold mine at a spot just behind a bench. Within an hour, we’d filled 3 bin sacks with plastic bottles and tin cans. Another bin sack later, we pinned down Billy for a quick interview (video coming soon) to find out more about Thames21 and why events like this are so important.
+Spirits high, we stumbled on a plastic gold mine at a spot just behind a bench. Within an hour, we’d filled 3 bin sacks with plastic bottles and tin cans. Another bin sack later, we pinned down Billy for a quick interview (video coming soon) to find out more about [Thames21][thames21] and why events like this are so important.
 
 ![Our new friend Meek](/assets/images/blogs/great_river_rescue/Meek.jpg)
 ![One hour's worth of litter](/assets/images/blogs/great_river_rescue/litter.JPG)
