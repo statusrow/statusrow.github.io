@@ -69,7 +69,14 @@
 
 .home--headline-container {
   text-align: center;
-  color: #fff;
+  color: #344359;
+}
+
+@media (max-width: 576px) {
+  #slider .home--headline-container  h1 {
+    padding: 10px 0;
+  }
+
 }
 
 .post-area a:hover {
@@ -98,7 +105,7 @@
   transform: translateY(-50%);
 }
 .countdown--time {
-  color: white;
+  color: #344359;
 }
 .countdown--time h2 {
   margin-bottom: 0;
@@ -107,10 +114,14 @@
 @media (max-width: 576px) {
   .countdown-container {
     height: auto;
-    margin: 100px 0 0 0;
+    margin: 70px 0 0 0;
+  }
+  .countdown--time-container {
+    height: 90px;
+    width: 70px;
   }
   .countdown-container .countdown--time-container {
-    margin: 10px;
+    margin: 5px;
   }
 }
 .dark-mask {
@@ -127,7 +138,6 @@
   margin: 60px auto;
 }
 #team h2 {
-  /*background-color: blue;*/
   font-weight: bold;
 
 }
@@ -156,6 +166,9 @@
 }
 #mission h2 {
   margin: 60px auto 30px;
+}
+#blog-list {
+  margin-top: 60px;
 }
 .instagram-feed {
   padding: 30px 0 60px;
