@@ -76,7 +76,6 @@
   #slider .home--headline-container  h1 {
     padding: 10px 0;
   }
-
 }
 
 .post-area a:hover {
@@ -86,8 +85,8 @@
   text-transform: uppercase;
 }
 .countdown-container {
-  height: 200px;
-  margin: 20px auto;
+  height: 140px;
+  margin: 0 auto;
   text-align: center;
 }
 .countdown-container .countdown--time-container {
@@ -122,6 +121,11 @@
   }
   .countdown-container .countdown--time-container {
     margin: 5px;
+  }
+}
+@media (max-width: 370px) {
+  .countdown-container {
+    display: none;
   }
 }
 .dark-mask {

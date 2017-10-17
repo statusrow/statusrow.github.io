@@ -167,10 +167,10 @@ px      68    160    252    */
     padding-left: 0px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 26px;
   }
   p {
-    font-size: 13px;
+    font-size: 14px;
   }
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
@@ -180,7 +180,8 @@ px      68    160    252    */
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
-    padding: 30px 0 100px 0;
+    height: 640px;
+    padding: 10px 0;
   }
   #slider .block {
     padding-left: 0px;
@@ -194,6 +195,13 @@ px      68    160    252    */
   #global-header {
     background-position: 70%;
     background-attachment: scroll;
+    margin-top: 115px;
+  }
+  #intro {
+    padding: 30px 0;
+  }
+  #mission {
+    margin: 0 auto;
   }
   /*--
 	wrapper Start
