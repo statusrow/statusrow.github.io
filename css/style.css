@@ -54,6 +54,14 @@
 .btn-lg {
   padding: 15px 40px;
 }
+
+@media (max-width: 576px) {
+  .btn-lg {
+    padding: 15px 10px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
 .post-area {
   padding: 40px;
   width: 100%;
@@ -183,4 +191,56 @@
   font-size: 10px;
   text-align: right;
   padding-right: 10px;
+}
+
+
+
+#partners .partner__content {
+  margin: 10px;
+}
+
+#partners .partner--diamond .partner__content,
+#partners .partner--platinum .partner__content {
+  display: flex;
+  justify-content: space-between;
+}
+#partners .partner--gold .partner__content,
+#partners .partner--silver .partner__content,
+#partners .partner--bronze .partner__content {
+  display: inline-block;
+}
+
+#partners .partner--diamond p,
+#partners .partner--diamond img {
+  max-width: 470px;
+}
+
+#partners .partner--platinum p,
+#partners .partner--platinum img {
+  max-width: 400px;
+}
+#partners .partner--gold p,
+#partners .partner--gold img {
+  max-width: 290px;
+  padding: 10px;
+}
+#partners .partner--silver p,
+#partners .partner--silver img {
+  max-width: 210px;
+  padding: 10px;
+}
+#partners .partner--bronze img {
+  max-width: 130px;
+  padding: 10px;
+}
+
+
+@media (max-width: 576px) {
+  #partners .partner__content {
+    display: block;
+  }
+  #partners .partner--diamond img,
+  #partners .partner--platinum img {
+    max-width: 100%;
+  }
 }

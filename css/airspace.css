@@ -447,11 +447,45 @@ font header .navbar-default .navbar-nav li a:hover {
   word-spacing: 3px;
 }
 
+
 @media (max-width: 576px) {
-  #global-header {
+  #global-header{
     padding-top: 50px;
   }
+  #partners-header {
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-top: 90px;
+  }
 }
+
+#partners-header {
+  position: relative;
+  padding-top: 150px;
+  margin: 90px auto;
+}
+#partners-header h1,
+#partners-header h2,
+#partners-header p {
+  color: #344359;
+}
+#partners-header:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 450px;
+  opacity: 0.3;
+  background: url("../assets/images/partners/status_row_partners.jpg") no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
 padding-top: 70px;
 }
 /*--
