@@ -3,7 +3,7 @@ layout: post
 title: Plastic Addict
 subtitle: How do you get people to change?
 date: 2017-10-08
-author: Suze
+author: Susan Ronaldson
 ---
 It's a conundrum that faces me everyday in my professional life as a Change Director and one which is at the heart our mission as Status Row.
 

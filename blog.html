@@ -29,7 +29,7 @@ permalink: /blog/
       <div class="post-area">
         <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
         <p>{{ post.subtitle }}</p>
-        <p class="post-date">{{ post.date | date_to_long_string }}</p>
+        <p class="post-date">{{ post.date | date_to_long_string }} - {{ post.author }}</p>
         <p>
           {{ post.content | strip_html | truncatewords: 50 }}
         </p>

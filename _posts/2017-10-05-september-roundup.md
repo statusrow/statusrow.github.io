@@ -3,7 +3,7 @@ layout: post
 title: September Roundup
 subtitle: Setting up our campaign
 date: 2017-10-05
-author: Jess
+author: Jess Rego
 ---
 Wow, September has been a crazy whirlwind of a month for us. September was the month we went from talking about rowing an ocean to actually planning to row across the Atlantic. Recap, that’s 3 women traveling 3,000 miles in around 50 days all to raise awareness and funds for plastic pollution and ocean clean up efforts.
 

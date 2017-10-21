@@ -3,7 +3,7 @@ layout: post
 title: The Thames21 Great River Rescue
 subtitle: Watling Park, Burnt Oak
 date: 2017-10-09
-author: Caroline & Jess
+author: Caroline Wilson & Jess Rego
 ---
 [thames21]: http://www.thames21.org.uk/
 [great_river_rescue]: http://www.thames21.org.uk/GreatRiverRescue/

@@ -3,7 +3,7 @@ layout: post
 title: Thorpe Bay Beach Clean
 subtitle: Taking part in the Great British Beach Clean
 date: 2017-09-16
-author: Caroline
+author: Caroline Wilson
 hero: /img/blog/thorpe_bay_beach_clean_3.JPG
 ---
 [gbbc]: http://www.mcsuk.org/beachwatch/greatbritishbeachclean

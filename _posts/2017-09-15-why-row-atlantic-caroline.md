@@ -3,7 +3,7 @@ layout: post
 title: Why we're rowing the Atlantic
 subtitle: From Caroline, who can't say no
 date: 2017-09-15
-author: Caroline
+author: Caroline Wilson
 ---
 [coxlesscrew]: http://coxlesscrew.com/
 [yorkshirerows]: http://www.yorkshirerows.com/

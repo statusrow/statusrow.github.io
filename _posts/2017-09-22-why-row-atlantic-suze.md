@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Why we're rowing the Atlantic
-subtitle: From Suze, who inspires us all
+subtitle: From Susan, who inspires us all
 date: 2017-09-22
-author: Suze
+author: Susan Ronaldson
 ---
 
 For me it started in a bar in Pucon, Chile; a small town at the foot of a rather large, active volcano. Of course life is full of beginnings, endings, twists and turns that change us, but that evening seems pivotal in turning me from a rather cautious, sensible soul into the kind of person who would go- yes, I will row the Atlantic!!

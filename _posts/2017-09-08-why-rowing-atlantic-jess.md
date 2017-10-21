@@ -3,7 +3,7 @@ layout: post
 title: Why we're rowing the Atlantic
 subtitle: From Jess, who had to be talked into it
 date: 2017-09-08
-author: Jess
+author: Jess Rego
 ---
 When the girls first got the idea in their heads that we should row across the Atlantic I was like "yeah!" Except it was swiftly followed by a "...right," an eye roll and a quickly consumed pint. I assumed this was another insane, flash in the pan idea that would fade with the next days hangover. However, unlike the ultra marathon, climbing the three peaks or swimming the English Channel we were all still talking about rowing the Atlantic three weeks later.
 
