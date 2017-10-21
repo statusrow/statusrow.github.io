@@ -19,7 +19,7 @@ author: Caroline Wilson
 [sg]: https://www.simplygentle.co.uk/product-page/simply-gentle-organic-buds
 [ellisons]: https://www.ellisons.co.uk/beauty-essentials-cotton-buds-paper-stem-200.html
 
-Flushed down our toilets, plastic cotton bud sticks are entering the sewage system, littering our beaches and finding their way to marine environments. Once there they can take 150 years to break down into microplastics. Yet here in the UK, millions of us are flushing our single-use plastic cotton buds on a regular basis.
+Flushed down our toilets, plastic cotton bud sticks are entering the sewage system, littering our beaches and finding their way to marine environments. Once there, the sticks are ingested by marine wildlife, killing them and raising questions around the safety of our food. Yet here in the UK, millions of us are flushing these single-use plastic cotton buds down the pan on a regular basis.
 
 We witnessed the sheer volume of this problem first hand during the [Great British Beach Clean][gbbc] in September, where we collected over 60 cotton bud sticks in only an hour of being on the beach.
 
