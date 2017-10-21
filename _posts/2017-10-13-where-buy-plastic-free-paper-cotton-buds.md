@@ -23,6 +23,8 @@ Flushed down our toilets, plastic cotton bud sticks are entering the sewage syst
 
 We witnessed the sheer volume of this problem first hand during the [Great British Beach Clean][gbbc] in September, where we collected over 60 cotton bud sticks in only an hour of being on the beach.
 
+![Plastic cotton buds](/assets/images/blogs/paper_cotton_buds/plastic_cotton_buds.jpg)
+
   "Plastic cotton bud stems are on the whole composed of polypropylene, one of the most widely produced plastics. As a lighter plastic, it floats on or near the water surface. Their structure means that they pass through the majority of sewage treatment works and end up in the marine environment via regular sewage outfalls." - [The Cotton Bud Project][tcbp]
 
 This problem isn't just an eyesore on our beaches. Once in the ocean, the plastic sticks break down and are ingested by marine wildlife. Cotton bud sticks are particularly dangerous to marine animals due to the damage caused by their rigid shape and sharp edges. Thousands of marine animals are killed every year by the consumption of plastic. Plastic has already been detected in our tap water and questions are being asked about the safety of our food.
@@ -39,6 +41,7 @@ Making this small change to your bathroom behaviour is not only a good thing for
 Next time you pick up a pack of cotton buds, refuse those with plastic sticks. Don’t worry, it’s easier than you might think. The whole Johnson’s range is now made with paper sticks, and Tesco, Sainsbury's, Asda, Aldi, Morrisons, Lidl, Boots and Superdrug have all agreed to phase out plastic cotton buds by the end of 2017*.
 
 To make it even easier for you, we’ve put together this handy list of places you can pick up paper stick cotton buds on the high street and online. We’ll keep updating the list as and when we find new retailers. If you’re unsure, check the packaging. Refuse anything that says ‘polypropylene’ or ‘plastic’.
+
 
 Know somewhere we’ve missed? [Tweet us][twitter] to let us know!
 
