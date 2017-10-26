@@ -422,7 +422,7 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 450px;
   opacity: 0.3;
   background: url("../assets/images/team_status_row.jpg") no-repeat;
-  background-position: center right;
+  background-position-y: 30%;
   background-size: cover;
   background-attachment: fixed;
 
