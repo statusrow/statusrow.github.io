@@ -169,6 +169,10 @@
 }
 
 @media (max-width: 576px) {
+  #intro .block h1 {
+    font-size: 40px;
+    margin-top: 60px;
+  }
   #intro .block .post-content p img {
     width: 100%;
   }
