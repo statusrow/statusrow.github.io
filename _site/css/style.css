@@ -163,15 +163,34 @@
 .quote {
   font-style: italic;
 }
+
 #intro .block .post-content p img {
   width: 49%;
   padding: 0;
 }
 
+#intro .block .post-content ul {
+  list-style: square;
+  margin-left: 40px;
+}
+#intro .block .post-content ul li {
+  color: #7B7B7B;
+  font-size: 14px;
+  line-height: 2;
+}
+
 @media (max-width: 576px) {
+
+  #intro .block {
+    padding: 15px;
+  }
   #intro .block h1 {
     font-size: 40px;
     margin-top: 60px;
+    padding: 30px 0 0px;
+  }
+  #intro .block h3 {
+    font-size: 18px;
   }
   #intro .block .post-content p img {
     width: 100%;
