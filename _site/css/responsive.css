@@ -201,7 +201,14 @@ px      68    160    252    */
     padding: 30px 0;
   }
   #mission {
+    margin: 60px auto;
+  }
+  #charity {
     margin: 0 auto;
+  }
+  #charity img {
+    margin: 40px auto;
+    float: none;
   }
   /*--
 	wrapper Start
