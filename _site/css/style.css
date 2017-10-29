@@ -196,22 +196,27 @@
     width: 100%;
   }
 }
-#mission {
+#mission,
+#charity,
+#race {
   margin: 60px auto;
 }
-#mission h2 {
-  margin: 60px auto 30px;
-}
-#charity {
-  margin: 60px auto;
-}
-#charity h2 {
+#mission h2,
+#charity h2,
+#race h2 {
   margin: 60px auto 30px;
 }
 #charity img {
   max-width: 200px;
   float: right;
-  margin-left: 50px; 
+  margin-left: 50px;
+}
+#race img {
+  border-radius: 200px;
+  float: right;
+  margin: 40px;
+  margin-right: 0;
+  max-width: 100%;
 }
 #blog-list {
   margin-top: 60px;
