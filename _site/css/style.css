@@ -275,6 +275,7 @@
 .Support__Grid .row {
   margin-bottom: 60px;
   padding: 30px;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .Support__Grid .row {
