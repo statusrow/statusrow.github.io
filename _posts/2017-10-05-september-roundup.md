@@ -1,6 +1,7 @@
 ---
 layout: post
 title: September Roundup
+description: September was the month we went from talking about rowing an ocean to planning it. That’s 3 women rowing 3000 miles to raise awareness of plastic pollution.
 subtitle: Setting up our campaign
 date: 2017-10-05
 author: Jess Rego

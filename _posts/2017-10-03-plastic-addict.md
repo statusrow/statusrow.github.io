@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Plastic Addict
+description: Most of us don't like doing things differently, and especially when "different" seems to be the more difficult option. So... how do you get people to change?
 subtitle: How do you get people to change?
 date: 2017-10-08
 author: Susan Ronaldson

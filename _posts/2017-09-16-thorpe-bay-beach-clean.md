@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Thorpe Bay Beach Clean
+description: Plastic cotton buds are taking over our beaches and making their way into the ocean. Brilliant volunteers are helping to clean up the mess we've made.
 subtitle: Taking part in the Great British Beach Clean
 date: 2017-09-16
 author: Caroline Wilson

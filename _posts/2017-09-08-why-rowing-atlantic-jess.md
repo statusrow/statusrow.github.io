@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jess - Why I'm rowing the Atlantic
+description: When the girls first has the idea that we should row across the Atlantic I was like "yeah!" swiftly followed by "...right," an eye roll and a quickly consumed pint.
 subtitle: (the one who had to be talked into it)
 date: 2017-09-08
 author: Jess Rego

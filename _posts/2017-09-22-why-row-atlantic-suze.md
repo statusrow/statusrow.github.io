@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Susan - Why I'm rowing the Atlantic
+description: It started in a bar in Pucon, Chile. Life is full of twists and turns, but that evening seems pivotal in turning me from a sensible soul to one who rows the Atlantic!
 subtitle: (the one with the inspirational words)
 date: 2017-09-22
 author: Susan Ronaldson

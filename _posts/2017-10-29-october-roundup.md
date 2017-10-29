@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  October Roundup
+description: October was 'packed in a lot-tober' for us as we’ve flung ourselves into our campaign to get Status Row to the start line of the world’s toughest row.
 subtitle: 'Packed in a lot-tober'
 date: 2017-10-29
 author: Susan Ronaldson

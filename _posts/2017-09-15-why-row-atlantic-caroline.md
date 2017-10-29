@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Caroline - Why I'm rowing the Atlantic
+description: It all started with a documentary about a group of women who rowed the Pacific. Needless to say, I was inspired by the physical and mental challenge.
 subtitle: (the one who can't say no)
 date: 2017-09-15
 author: Caroline Wilson

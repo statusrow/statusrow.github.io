@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  My teammates are superheroes
+description: When an opportunity falls in my lap I take it. It means I’m surrounded by people with more experience than me and often results in imposter syndrome.
 subtitle: (and other stories of imposter syndrome)
 date: 2017-10-28
 author: Jess Rego

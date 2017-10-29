@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Where to buy paper stemmed cotton buds
+description: Flushed down our toilets, plastic cotton bud sticks are entering the sewage system, littering our beaches and finding their way to marine environments.
 subtitle: Millions are flushing plastic cotton buds down the toilet. It’s time to stop.
 date: 2017-10-13
 author: Caroline Wilson

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Thames21 Great River Rescue
+description: In only a few hours on a rainy Saturday morning, we joined the Great River Rescue and helped removed over 40 bags of litter and plastic from our waterways.
 subtitle: Watling Park, Burnt Oak
 date: 2017-10-09
 author: Caroline Wilson & Jess Rego
@@ -8,9 +9,9 @@ author: Caroline Wilson & Jess Rego
 [thames21]: http://www.thames21.org.uk/
 [great_river_rescue]: http://www.thames21.org.uk/GreatRiverRescue/
 
-Is there anything better than a lazy day inside on a rainy Saturday? A few weeks ago I probably would have said no but that was before I spent the day with some awesome people clearing up litter in Watling Park in Burnt Oak.
+Is there anything better than a lazy day inside on a rainy Saturday? A few weeks ago I probably would have said no but that was before I spent the day with some wonderful people clearing up litter in Watling Park in Burnt Oak.
 
-I know what you’re thinking - picking up trash is no way to spend a weekend! - but we had a brilliant morning, removing 40 bags of litter from the waterways, and meeting the brilliant team working  to clean up their local area. A little rain was no match for these everyday heroes; despite the drizzle, more than 15 volunteers turned up, most of whom had been regulars at the Thames 21 events over the summer.
+I know what you’re thinking - picking up trash is no way to spend a weekend! - but we had a great morning, helping to remove 40 bags of litter from the waterways, and meeting the brilliant team working to clean up their local area. A little rain was no match for these everyday heroes; despite the drizzle, more than 15 volunteers turned up, most of whom had been regulars at the Thames 21 events over the summer.
 
 ![Signing up for the Great River Rescue](/assets/images/blogs/great_river_rescue/sign_up.JPG)
 
