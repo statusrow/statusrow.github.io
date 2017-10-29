@@ -267,3 +267,20 @@
     max-width: 100%;
   }
 }
+
+
+.Support__Grid {
+  text-align: center;
+}
+.Support__Grid .row {
+  margin-bottom: 60px;
+  padding: 30px;
+}
+@media (max-width: 767px) {
+  .Support__Grid .row {
+    margin-bottom: 0;
+  }
+  .Support__Grid .col-xs-12  {
+    padding: 0 30px 30px ;
+  }
+}
