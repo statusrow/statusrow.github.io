@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Why we're rowing the Atlantic
-subtitle: From Susan, who inspires us all
+title: Susan - Why I'm rowing the Atlantic
+subtitle: (the one with the inspirational words)
 date: 2017-09-22
 author: Susan Ronaldson
 ---

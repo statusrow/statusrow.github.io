@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Why we're rowing the Atlantic
-subtitle: From Jess, who had to be talked into it
+title: Jess - Why I'm rowing the Atlantic
+subtitle: (the one who had to be talked into it)
 date: 2017-09-08
 author: Jess Rego
 ---
+[twitter]: https://twitter.com/StatusRow
+[facebook]: https://www.facebook.com/statusrow/
+[instagram]: https://www.instagram.com/statusrow/
+[support]: http://www.statusrow.com/support/
+
 When the girls first got the idea in their heads that we should row across the Atlantic I was like "yeah!" Except it was swiftly followed by a "...right," an eye roll and a quickly consumed pint. I assumed this was another insane, flash in the pan idea that would fade with the next days hangover. However, unlike the ultra marathon, climbing the three peaks or swimming the English Channel we were all still talking about rowing the Atlantic three weeks later.
 
 It was time to get on board or walk the plank (lol, boat puns).
@@ -24,6 +29,6 @@ Needless to say it’s a priceless resource yet humans have been literally trash
 
 I literally have that tattooed across my ribs. I want to leave this world better than I found it. I want to make a contribution that will continue to have an impact long after I’m gone. And if my legacy is getting a single person to rethink buying another plastic water bottle or cleaning up even a small patch of ocean then I will consider that a roaring success. Every change for the better, no matter how small, is a step in the right direction. That’s worth it for me. It’s worth the rigorous training and the empty savings account and even worth giving up wine.
 
-If you agree with me at all then I hope you’ll consider supporting us on this crazy adventure. Any contribution, big or small, will help us get to the start line so we can spread the word even further. If you know anyone you think could help us in any way, get in touch and make sure to follow us on twitter and instagram for updates of the journey.
+If you agree with me at all then I hope you’ll consider supporting us on this crazy adventure. [Any contribution][support], big or small, will help us get to the start line so we can spread the word even further. If you know anyone you think could help us in any way, get in touch and make sure to follow us on [Twitter][twitter], [Facebook][facebook] and [Instagram][instagram] for updates of the journey.
 
 __Spread the word. Share the love. Save the planet.__
