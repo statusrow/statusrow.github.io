@@ -16,11 +16,15 @@ It all started with the [Coxless Crew][coxlesscrew] documentary; A group of wome
 
 At our next climbing session I was quick to share the tale with the team. To my surprise, Suze was well versed with the sport, having recently read about the [Yorkshire Rows][yorkshirerows] and the [Talisker Whisky Atlantic Challenge][taliskerwhiskyatlanticchallenge]. It was clear to us both that an ocean row was on the horizon…
 
+![Caroline out canoeing in Scotland](/img/team/caroline_canoe.jpg)
+
 Heading to the pub for a post-climb debrief, we read up about the race; the more we read, the more we were hooked. In my mind, this was the event I’d been looking for. I'm no stranger to physical and mental challenges, having overcome an acute episode of Transverse Myelitis which left me temporarily paralysed in my arms and upper body and which took over 6 months to recover from, and having completed numerous long distance running and cycling events since. But there was always something missing from these challenges… you could always just stop if you needed to. With the row, once you step on that boat, there’s no turning back. Think you can’t go on? Tough. You have to. All the way to Antigua. You can’t escape it.
 
 > “It’s the ultimate test of mental strength. I can’t think of a more demanding and exciting challenge.”
 
 So an ocean row ticked all my challenge boxes, but why sign up to the race? Why not just row it alone? One of the biggest reasons we wanted to do this as part of an organised race event is to benefit from the exposure the race receives. For us, it was important to leverage this global stage as a platform for raising awareness of the global problem of plastic pollution. Thanks to the strength of this incredible platform, previous race competitors have raised huge amounts for their chosen charities, and we plan to do the same for the [Marine Conservation Society][mcs].
+
+![Caroline out canoeing in Scotland](/img/team/caroline.jpg)
 
 I was fortunate enough to grow up in the beautiful English countryside, spending holidays camping by some of Britain's finest beach destinations. I’ve always loved playing the sea and spending time outdoors. But our fragile ecosystem is threatened by human behaviour. Plastic pollution isn’t an issue faced by previous generations; it’s a modern day issue that has rapidly spiralled out of control.
 
