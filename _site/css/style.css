@@ -302,3 +302,29 @@
     padding: 0 30px 30px ;
   }
 }
+
+.Quotes {
+  margin: 60px auto;
+}
+.Quotes h2 {
+  text-align: center;
+}
+.Quotes__card {
+  width: 100%;
+  background: #EDE554;
+  color: #344359;
+  padding: 30px;
+  border-radius: 3px;
+  margin: 10px;
+}
+.Quotes__list {
+  margin-top: 60px;
+}
+.Quotes__list .col-xs-12:nth-child(even) .Quotes__card {
+  width: 100%;
+  color: #EDE554;
+  background: #344359;
+  padding: 30px;
+  border-radius: 3px;
+  margin: 10px;
+}
