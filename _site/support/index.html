@@ -10,15 +10,10 @@
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/owl.carousel.css" />
 <link rel="stylesheet" href="/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/css/font-awesome.min.css" />
-<link rel="stylesheet" href="/css/airspace.css" />
-<link rel="stylesheet" href="/css/style.css" />
-<link rel="stylesheet" href="/css/ionicons.min.css" />
-<link rel="stylesheet" href="/css/animate.css" />
-<link rel="stylesheet" href="/css/responsive.css" />
-<link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/main/defaults.css" />
+<link rel="stylesheet" href="/css/main/partials.css" />
 
 <!-- Js -->
 <script>
@@ -35,10 +30,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/plugins.js"></script>
-<script src="/js/min/waypoints.min.js"></script>
-<script src="/js/jquery.counterup.js"></script>
 <script src="/js/countdown.js"></script>
 <script src="/js/countup.js"></script>
 
@@ -52,9 +43,8 @@
 
     <!-- Header Start -->
 <header>
-<div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <!-- header Nav Start -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -73,29 +63,26 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">HOME</a></li>
                 <li><a href="/talisker-whisky-atlantic-challenge">RACE</a></li>
                 <li><a href="/mission">MISSION</a></li>
                 <li><a href="/team">TEAM</a></li>
                 <!-- <li><a href="/charity">CHARITY</a></li> -->
                 <li><a href="/partners">PARTNERS</a></li>
-                <li><a href="/100-club">100 Club</a></li>
+                <li><a href="/100-club">100 CLUB</a></li>
                 <li><a href="/contact">CONTACT</a></li>
                 <li><a href="/blog">BLOG</a></li>
-                <li><a href="/support" class="btn btn-default">SUPPORT US</a></li>
+                <li><a href="/support" class="btn btn-secondary">SUPPORT US</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
       </div>
     </div>
-  </div>
 </header><!-- header close -->
 
 
 
-        <!-- Slider Start -->
-<section id="global-header">
+    <section class="Hero__Global">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -115,10 +102,10 @@
 </div>
 
 <!-- Content Start -->
-<section id="mission">
+<section>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-10 col-md-offset-1">
+      <div class="col-xs-12">
         <p>We're working hard to raise funds in support of the Marine Conservation Society, but we're faced with costs of over £80,000 just to get to the start line.</p>
         <p>For <a href="/mission">our mission</a> to be realised, we need to fund a boat, technical and life-saving equipment, on-shore support, food and other operational costs. It's a huge target that we can only achieve through a combination of the team's savings, corporate sponsorship (our support-oars) and <a href="/100-club">the 100 club</a>.</p>
         <p>After the race we will sell the boat and technical equipment to recoup some of the costs. All the money recouped from the sale will be added to the charitable donations.</p>
@@ -129,41 +116,49 @@
   </div>
 </section>
 
-<section class="Support__Grid">
+<section>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-6">
-        <img src="/assets/images/support/100_club_logo.png" alt="Join the Status Row 100 club" />
-        <p>Support the team and get your name on the boat!</p>
-        <p><a href="/100-club">Learn more ></a></p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="NQRNJEKLPEBGW">
-          <input type="image" src="/assets/images/support/join_100_btn.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!" style="max-width:100%">
-          <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-        </form>
+        <div class="Support__Logo">
+          <img src="/assets/images/support/100_club_logo.png" alt="Join the Status Row 100 club" />
+          <p>Support the team and get your name on the boat!</p>
+          <p><a href="/100-club">Learn more ></a></p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="NQRNJEKLPEBGW">
+            <input type="image" src="/assets/images/support/join_100_btn.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!" style="max-width:100%">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
       </div>
-      <div class="col-xs-12 col-md-6">
-        <img src="/assets/images/support/corporate_logo.png" alt="Status Row Corporate Sponsorship Packages" />
-        <p>Is your business looking to gain exposure on a global stage?</p>
-        <p>View our exciting range of opportunities.</p>
 
-        <p><a href="/assets/documents/status_row_partnership_opportunities.pdf" download class="btn btn-default btn-lg">Download sponsorship packages</a></p>
+      <div class="col-xs-12 col-md-6">
+        <div class="Support__Logo">
+          <img src="/assets/images/support/corporate_logo.png" alt="Status Row Corporate Sponsorship Packages" />
+          <p>Is your business looking to gain exposure on a global stage?</p>
+          <p>View our exciting range of opportunities.</p>
+
+          <p><a href="/assets/documents/status_row_partnership_opportunities.pdf" download class="btn btn-secondary btn-lg">Download</a></p>
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12 col-md-6">
-        <img src="/assets/images/support/60_donation_logo.png" alt="Donate £60 to support Status Row" />
-        <p>A donation of £60 is enough to equip one of our crew with an essential life jacket.</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="ALSY25JNLV2CJ">
-          <input type="image" src="/assets/images/support/donate_60_btn.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-          <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-        </form>
-
+        <div class="Support__Logo">
+          <img src="/assets/images/support/60_donation_logo.png" alt="Donate £60 to support Status Row" />
+          <p>A donation of £60 is enough to equip one of our crew with an essential life jacket.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="ALSY25JNLV2CJ">
+            <input type="image" src="/assets/images/support/donate_60_btn.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
       </div>
-        <div class="col-xs-12 col-md-6">
+
+      <div class="col-xs-12 col-md-6">
+        <div class="Support__Logo">
           <img src="/assets/images/support/30_donation_logo.png" alt="Donate £30 to support Status Row" />
           <p>A donation of £30 will provide us with enough food for one crew member for a day.</p>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -173,12 +168,13 @@
             <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
           </form>
         </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="text-center">
-  <div class="container">
+<section>
+  <div class="container text-center">
     <div class="row">
       <div class="col-xs-12">
         <br />
@@ -250,6 +246,11 @@
               <p>"Amazing, epic project. Incredibly envious 😀 " - @KateDobinson</p>
             </div>
           </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="Quotes__card">
+              <p>"Wow, great work ladies. What an inspiration! Off to tell my daughters all about you 🙌 #rolemodels #rowing #plasticfree" - @vitorinadw</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -270,55 +271,37 @@
 
 
 <!-- Call to action Start -->
-<section id="call-to-action">
-  <div class="container">
+<section class="Footer">
+  <div class="Footer__Support">
     <div class="row">
       <div class="col-md-12">
-        <div class="block">
-          <h2>We can't do it without you</h2>
-          <p>In order for us to reach our fundraising target for charity, we need your help to get to the start line.</p>
-          <a class="btn btn-default btn-call-to-action" href="/support">Donate now</a>
-        </div>
+        <h2>We can't do it without you</h2>
+        <p>In order for us to reach our fundraising target for charity, we need your help to get to the start line.</p>
+        <a class="btn btn-default btn-primary btn-lg" href="/support">Donate now</a>
       </div>
     </div>
   </div>
-</section>
 
-<footer>
-  <div class="container">
+  <div class="Footer__Social">
     <div class="row">
       <div class="col-md-12">
-        <div class="footer-manu">
-          <div class="row">
-            <ul class="social-icons">
-              <li>
-                <a href="https://www.facebook.com/statusrow/" target="_blank"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/statusrow/" target="_blank"><i class="fa fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/StatusRow" target="_blank"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="mailto:hello@statusrow.com"><i class="fa fa-envelope-o"></i></a>
-              </li>
-            </ul>
-          </div>
-          <!-- <div class="row">
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="/contact">Contact us</a></li>
-              <li><a href="#">How it works</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="#">Terms</a></li>
-            </ul>
-          </div> -->
-        </div>
+        <ul class="Social-icons">
+          <li>
+            <a href="https://www.facebook.com/statusrow/" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/statusrow/" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/StatusRow" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="mailto:hello@statusrow.com"><i class="fa fa-2x fa-envelope-o"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-</footer>
+  </section>
 
 
     </body>

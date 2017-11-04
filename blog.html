@@ -5,13 +5,11 @@ description: The latest news and stories from the Status Row team on their missi
 permalink: /blog/
 ---
 <!-- Slider Start -->
-<section id="global-header">
+<section class="Hero__Global">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="block">
-          <h1>The latest on what we're up to</h1>
-        </div>
+        <h1>The latest on what we're up to</h1>
       </div>
     </div>
   </div>
@@ -23,19 +21,22 @@ permalink: /blog/
   </div>
 </div>
 
-<section id="blog-list">
-  <div class="row">
-  {% for post in site.posts %}
-    <div class="col-xs-12 col-md-6">
-      <div class="post-area">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-        <p>{{ post.subtitle }}</p>
-        <p class="post-date">{{ post.date | date_to_long_string }} - {{ post.author }}</p>
-        <p>
-          {{ post.content | strip_html | truncatewords: 50 }}
-        </p>
+<section>
+  <div class="container">
+    <div class="row">
+    {% for post in site.posts %}
+      <div class="col-xs-12 col-sm-6">
+        <div class="Post__Grid--card">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="bold"><h3>{{ post.title }}</h3></a>
+          <p class="post-date">{{ post.date | date_to_long_string }}</p>
+          <p>{{ post.author }}</p>
+          <p>
+            {{ post.content | strip_html | truncatewords: 50 }}
+          </p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-secondary">Read more</a>
+        </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>

@@ -10,15 +10,10 @@
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/owl.carousel.css" />
 <link rel="stylesheet" href="/css/bootstrap.min.css" />
 <link rel="stylesheet" href="/css/font-awesome.min.css" />
-<link rel="stylesheet" href="/css/airspace.css" />
-<link rel="stylesheet" href="/css/style.css" />
-<link rel="stylesheet" href="/css/ionicons.min.css" />
-<link rel="stylesheet" href="/css/animate.css" />
-<link rel="stylesheet" href="/css/responsive.css" />
-<link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/main/defaults.css" />
+<link rel="stylesheet" href="/css/main/partials.css" />
 
 <!-- Js -->
 <script>
@@ -35,10 +30,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="/js/bootstrap.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/plugins.js"></script>
-<script src="/js/min/waypoints.min.js"></script>
-<script src="/js/jquery.counterup.js"></script>
 <script src="/js/countdown.js"></script>
 <script src="/js/countup.js"></script>
 
@@ -52,9 +43,8 @@
 
     <!-- Header Start -->
 <header>
-<div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <!-- header Nav Start -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -73,174 +63,163 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">HOME</a></li>
                 <li><a href="/talisker-whisky-atlantic-challenge">RACE</a></li>
                 <li><a href="/mission">MISSION</a></li>
                 <li><a href="/team">TEAM</a></li>
                 <!-- <li><a href="/charity">CHARITY</a></li> -->
                 <li><a href="/partners">PARTNERS</a></li>
-                <li><a href="/100-club">100 Club</a></li>
+                <li><a href="/100-club">100 CLUB</a></li>
                 <li><a href="/contact">CONTACT</a></li>
                 <li><a href="/blog">BLOG</a></li>
-                <li><a href="/support" class="btn btn-default">SUPPORT US</a></li>
+                <li><a href="/support" class="btn btn-secondary">SUPPORT US</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
       </div>
     </div>
-  </div>
 </header><!-- header close -->
 
 
 
     <!-- Slider Start -->
-<section id="slider">
-  <div class="container">
-    <div class="home--headline-container">
-        <h1 class="animated fadeInUp">STATUS ROW</h1>
-        <h2 class="animated fadeInUp">Three women rowing across the Atlantic to challenge the everyday use of plastic</h2>
-        <p class="animated fadeInUp">If we can row an ocean, can you say no to a straw?</p>
-    </div>
+<div class="Homepage">
+  <section class="Homepage__Hero">
+    <div class="container">
+      <div class="Homepage__Hero--headline">
+        <h1>STATUS ROW</h1>
+        <h2>Three women rowing across the Atlantic to challenge the everyday use of plastic</h2>
+        <p>If we can row an ocean, can you say no to a straw?</p>
+      </div>
 
-    <div class="text-center animated fadeInUp">
-      <a href="/support" title="Support Status Row" class="btn btn-primary btn-lg">Support us</a>
-    </div>
+      <div class="Homepage__Hero--cta">
+        <a href="/support" title="Support Status Row" class="btn btn-primary btn-lg">Support us</a>
+      </div>
 
-    <div class="countdown-container animated fadeInUp">
-      <div class="countdown--time-container">
-        <div class="countdown--time">
-          <h2 id="countdown-days">0</h2>
-          <p>days</p>
-        </div>
-      </div>
-      <div class="countdown--time-container">
-        <div class="countdown--time">
-          <h2 id="countdown-hrs">0</h2>
-          <p>hours</p>
-        </div>
-      </div>
-      <div class="countdown--time-container">
-        <div class="countdown--time">
-          <h2 id="countdown-mins">0</h2>
-          <p>mins</p>
-        </div>
-      </div>
-      <div class="countdown--time-container">
-        <div class="countdown--time">
-          <h2 id="countdown-secs">0</h2>
-          <p>seconds</p>
-        </div>
+      <div class="Homepage__Hero--subheader">
+        <p>Talisker Whisky Atlantic Challenge - December 2018</p>
       </div>
     </div>
 
-  </div>
-</section>
+  </section>
 
-<div class="row">
-  <div class="col-xs-12">
-    <p class="credit">Image courtesy of Rannoch Adventure</p>
-  </div>
-</div>
-
-<section id="intro">
-  <div class="container">
+  <div class="Countdown">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h3>Our Cause</h3>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="row">
+          <div class="col-xs-3">
+            <div class="Countdown__time">
+              <h2 id="countdown-days">0</h2>
+              <p>days</p>
+            </div>
           </div>
-          <p>Every second breath we take comes from our oceans, yet we're unleashing a plastic plague on them. 8 million tonnes a year, <sup>*</sup>the equivalent of 6,341 plastic bottles <strong>every second</strong>, is dumped into our ocean. Once in the ocean, it's broken down and ingested by fish and marine mammals, killing them and entering our food chain and tap water.</p>
-        </div>
-      </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="block highlight">
-          <p>Number of bottles<sup>*</sup> dumped in the ocean</p>
-          <h2 id="totalBottles"></h2>
-          <p>(since you've been on this page...)</p>
-        </div>
+          <div class="col-xs-3">
+            <div class="Countdown__time">
+              <h2 id="countdown-hrs">0</h2>
+              <p>hours</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="Countdown__time">
+              <h2 id="countdown-mins">0</h2>
+              <p>mins</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="Countdown__time">
+              <h2 id="countdown-secs">0</h2>
+              <p>seconds</p>
+            </div>
+          </div>
       </div>
     </div>
-    <br />
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block right">
-          <img src="img/beach_rubbish.jpg" alt="Plastic pollution on our beaches">
-        </div>
-      </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <p>We're aiming to raise significant funds for the <a href="https://www.mcsuk.org/" target="_blank">Marine Conservation Society</a> (MCS) - the UK’s leading charity for the protection of our seas, shores and wildlife - and who are spearheading the fight against plastic pollution in the UK.</p>
-          <p>We want to spread the word to <strong>refuse, reduce, reuse and recycle</strong>.</p>
-        </div>
-        <a href="/mission" class="btn btn-primary">Read our mission</a>
-      </div>
     </div>
   </div>
-</section>
 
-<section id="feature">
-<div class="container">
   <div class="row">
-    <div class="col-md-8 col-md-offset-4">
-      <div class="dark-mask">
-        <h3>Our Challenge</h3>
-        <p>How can 3 office workers, whose biggest daily challenge is crossing London at rush hour, take on the <a href="https://www.taliskerwhiskyatlanticchallenge.com/" target="_blank">Talisker Whisky Atlantic Challenge</a> - The World's Toughest Row. A feat fewer people have completed than have climbed Everest or have gone into space?</p>
-        <p>Setting out from the Canary Islands, we’ll row 3,000 miles day and night for over 7 weeks, overcoming physical and mental battles to reach our finish line in Antigua.</p>
-        <a href="/mission" class="btn btn-view-works">The mission</a>
-      </div>
+    <div class="col-xs-12">
+      <p class="credit">Image courtesy of Rannoch Adventure</p>
     </div>
   </div>
-</div>
-</section>
 
-<section id="intro">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h3>Our Crew</h3>
-            <p>Tall, strong, athletic is the image of a typical rowing crew – think Steve Redgrave, Katherine Granger, those perfect specimens in the university boat race - well that’s not us!</p>
-          </div>
-          <p>We’re three friends who went for a couple of beers after an indoor climbing session and realised that together we could do something amazing! Somehow it still seemed a good idea the next day.</p>
-          <a href="/team" class="btn btn-primary">Meet the crew</a>
+  <section class="Homepage__Content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <h3>Our Challenge</h3>
+          <p>How can 3 office workers, whose biggest daily challenge is crossing London at rush hour, take on the <a href="https://www.taliskerwhiskyatlanticchallenge.com/" target="_blank">Talisker Whisky Atlantic Challenge</a> - The World's Toughest Row. A feat fewer people have completed than have climbed Everest or have gone into space?</p>
+          <p>Setting out from the Canary Islands, we’ll row 3,000 miles day and night for over 7 weeks, overcoming physical and mental battles to reach our finish line in Antigua.</p>
+          <a href="/mission" class="btn btn-primary btn-lg">The mission</a>
+        </div>
+        <div class="col-sm-12 col-md-5">
+          <img class="Image--circle" src="/assets/images/3000_mile_row.png" alt="3000 rowing race across the Atlantic" />
         </div>
       </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
+    </div>
+  </section>
+
+  <section id="Hero__Challenge" class="Homepage__Content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-4">
+          <div class="Homepage__Content--copy">
+            <h3>Our Cause</h3>
+            <p>Every second breath we take comes from our oceans, yet we're unleashing a plastic plague on them. 8 million tonnes a year, <sup>*</sup>the equivalent of 6,341 plastic bottles <strong>every second</strong>, is dumped into our ocean. Once in the ocean, it's broken down and ingested by fish and marine mammals, killing them and entering our food chain and tap water.</p>
+            <p>Number of bottles<sup>*</sup> dumped in the ocean</p>
+            <h2 id="totalBottles"></h2>
+            <p>(since you've been on this page...)</p>
+            <p>We're aiming to raise significant funds for the <a href="https://www.mcsuk.org/" target="_blank">Marine Conservation Society</a> (MCS) - the UK’s leading charity for the protection of our seas, shores and wildlife - and who are spearheading the fight against plastic pollution in the UK.</p>
+            <p>We want to spread the word to <strong>refuse, reduce, reuse and recycle</strong>.</p>
+            <a href="/mission" class="btn btn-secondary btn-lg">Read our mission</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Homepage__Content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <h3>Our Crew</h3>
+          <p>Tall, strong, athletic is the image of a typical rowing crew – think Steve Redgrave, Katherine Granger, those perfect specimens in the university boat race - well that’s not us!</p>
+          <p>We’re three friends who went for a couple of beers after an indoor climbing session and realised that together we could do something amazing! Somehow it still seemed a good idea the next day.</p>
+          <a href="/team" class="btn btn-primary btn-lg">Meet the crew</a>
+        </div>
+        <div class="col-md-5 col-sm-12">
           <img src="assets/images/status_row_square.jpg" alt="Team Status Row">
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- SnapWidget -->
-<section class="instagram-feed">
-  <div class="row">
-    <div class="col-xs-12 text-center">
-      <h2>Follow our journey</h2>
-      <ul class="social-icons">
-        <li>
-          <a href="https://www.facebook.com/statusrow/" target="_blank"><i class="fa fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/statusrow/" target="_blank"><i class="fa fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/StatusRow" target="_blank"><i class="fa fa-twitter"></i></a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-xs-12 col-md-10 col-md-offset-1">
-    <script src="https://snapwidget.com/js/snapwidget.js"></script>
-    <iframe src="https://snapwidget.com/embed/449986" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+  <!-- SnapWidget -->
+  <section class="instagram-feed">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h2>Follow our journey</h2>
+          <ul class="Social-icons">
+            <li>
+              <a href="https://www.facebook.com/statusrow/" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/statusrow/" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/StatusRow" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12">
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/449986" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
 
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
 
 
 
@@ -256,55 +235,37 @@
 
 
 <!-- Call to action Start -->
-<section id="call-to-action">
-  <div class="container">
+<section class="Footer">
+  <div class="Footer__Support">
     <div class="row">
       <div class="col-md-12">
-        <div class="block">
-          <h2>We can't do it without you</h2>
-          <p>In order for us to reach our fundraising target for charity, we need your help to get to the start line.</p>
-          <a class="btn btn-default btn-call-to-action" href="/support">Donate now</a>
-        </div>
+        <h2>We can't do it without you</h2>
+        <p>In order for us to reach our fundraising target for charity, we need your help to get to the start line.</p>
+        <a class="btn btn-default btn-primary btn-lg" href="/support">Donate now</a>
       </div>
     </div>
   </div>
-</section>
 
-<footer>
-  <div class="container">
+  <div class="Footer__Social">
     <div class="row">
       <div class="col-md-12">
-        <div class="footer-manu">
-          <div class="row">
-            <ul class="social-icons">
-              <li>
-                <a href="https://www.facebook.com/statusrow/" target="_blank"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/statusrow/" target="_blank"><i class="fa fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/StatusRow" target="_blank"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="mailto:hello@statusrow.com"><i class="fa fa-envelope-o"></i></a>
-              </li>
-            </ul>
-          </div>
-          <!-- <div class="row">
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="/contact">Contact us</a></li>
-              <li><a href="#">How it works</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="#">Terms</a></li>
-            </ul>
-          </div> -->
-        </div>
+        <ul class="Social-icons">
+          <li>
+            <a href="https://www.facebook.com/statusrow/" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/statusrow/" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/StatusRow" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="mailto:hello@statusrow.com"><i class="fa fa-2x fa-envelope-o"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-</footer>
+  </section>
 
 
     </body>

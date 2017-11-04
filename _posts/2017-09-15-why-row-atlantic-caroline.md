@@ -16,7 +16,7 @@ It all started with the [Coxless Crew][coxlesscrew] documentary; A group of wome
 
 At our next climbing session I was quick to share the tale with the team. To my surprise, Suze was well versed with the sport, having recently read about the [Yorkshire Rows][yorkshirerows] and the [Talisker Whisky Atlantic Challenge][taliskerwhiskyatlanticchallenge]. It was clear to us both that an ocean row was on the horizon…
 
-![Caroline out canoeing in Scotland](/img/team/caroline_canoe.jpg)
+![Caroline out canoeing in Scotland](/assets/images/team/caroline_canoe.jpg)
 
 Heading to the pub for a post-climb debrief, we read up about the race; the more we read, the more we were hooked. In my mind, this was the event I’d been looking for. I'm no stranger to physical and mental challenges, having overcome an acute episode of Transverse Myelitis which left me temporarily paralysed in my arms and upper body and which took over 6 months to recover from, and having completed numerous long distance running and cycling events since. But there was always something missing from these challenges… you could always just stop if you needed to. With the row, once you step on that boat, there’s no turning back. Think you can’t go on? Tough. You have to. All the way to Antigua. You can’t escape it.
 
