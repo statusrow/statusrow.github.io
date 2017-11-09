@@ -1,6 +1,6 @@
 ---
 layout: post
-title: takeaway Coffee Cups
+title: Takeaway Coffee Cups
 description: Takeaway coffee cups go into the recycling bin because they’re made of paper and can be recycled… right? Well not really, but therein lies the problem.
 subtitle: Is it time to kick the habit?
 date: 2017-11-07
