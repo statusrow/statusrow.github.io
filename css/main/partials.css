@@ -91,7 +91,7 @@ ul.Social-icons > li {
 
 /* Homepage - Hero */
 .Homepage .Homepage__Hero {
-  background: url(../../assets/images/status_rowing-5.png) no-repeat center;
+  background: url(../../assets/images/status_rowing-5.png) no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -272,4 +272,9 @@ ul.Social-icons > li {
     margin-left: 0;
     margin-right: 20px;
   }
+}
+
+.Post__video {
+  max-width: 80%;
+  margin: 10px auto 30px;
 }

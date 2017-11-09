@@ -28,6 +28,7 @@ permalink: /blog/
       <div class="col-xs-12 col-sm-6">
         <div class="Post__Grid--card">
           <a href="{{ post.url | prepend: site.baseurl }}" class="bold"><h3>{{ post.title }}</h3></a>
+          <p>{{ post.subtitle }}</p>
           <p class="post-date">{{ post.date | date_to_long_string }}</p>
           <p>{{ post.author }}</p>
           <p>
