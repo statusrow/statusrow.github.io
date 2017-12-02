@@ -78,6 +78,7 @@ a:active {
 }
 .btn {
   text-transform: uppercase;
+  white-space: pre-wrap;
 }
 .btn-primary {
   background-color: var(--blue--primary);
