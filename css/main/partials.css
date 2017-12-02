@@ -177,8 +177,10 @@ ul.Social-icons > li {
   display: inline-block;
 }
 .Partner__Level--bronze img {
-  max-width: 130px;
+  max-width: 200px;
+  max-height: 130px;
   padding: 10px;
+  margin: 10px;
 }
  /* Exposure */
  .Exposure {
