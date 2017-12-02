@@ -209,6 +209,9 @@ ul.Social-icons > li {
  }
  .Quotes__list {
    margin-top: 60px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
  }
  .Quotes__list .col-xs-12:nth-child(even) .Quotes__card p{
    color: var(--yellow);
