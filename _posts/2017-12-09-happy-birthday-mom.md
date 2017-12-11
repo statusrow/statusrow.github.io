@@ -16,35 +16,73 @@ In the ten years since you’ve been gone I’ve gotten myself into all sorts of
 
 What would you think about this crazy idea? How would you react when I told you that I was planning to row 3,000 miles across the open Atlantic seas in a tiny boat with no outside support for 50+ days?
 
-![She Weatherheads summer in Barbados](/assets/images/blogs/happy-birthday-mom/summer_in_barbados.jpg)
-
 I’d like to think that while Dad and Kristen are skeptical (at best) and trying to talk me out of it that you’d be here plotting and planning away. The ultimate organiser you’d have the whole teams’ training schedules memorised and would have sent me some god awful performance diet to try out. You would probably know our entire route and the boat details before I did and I know you’d do a killer job at rustling up support back home. As a fellow eco-warrior (I love telling people you let me skip class in high school to protest building developments) I think you’d find our cause completely rad and would wage war on plastic in Bermuda, shaming even the most shameless into giving up their water bottles and carrier bags.
-
-![Sailing in Bermuda](/assets/images/blogs/happy-birthday-mom/sailing_in_bermuda.jpg)
 
 And I know that no matter how long it took us, you’d be waiting on the dock in Antigua.
 
 It occurred to me the other day that you’re a big part of why I agreed to do this race. Growing up you had such incredible stories of the adventures you went on as a teenager. From intense Duke of Edinburgh expeditions to your colourful stories of (underage, tsk tsk) nights on the town with your Disco 40 friends. I’ll never forget our last summer together when, in between Wimbledon sets, you told me about one whirlwind trip to Barbados with Aunt Jane. Tearing it up the way only Weatherhead women could.
 
-![Getting firewood in Wales](/assets/images/blogs/happy-birthday-mom/outward_bound_wales.jpg)
-
 You taught me to embrace a challenge and that the best stories come from a life well lived.
 
-![Performing with the Disco40 dance team](/assets/images/blogs/happy-birthday-mom/disco_dancing.jpg)
+<div class="Blog__Post--image_3-col row">
+  <div class="col-xs-12 col-sm-4">
+    <figure>
+      <img class="Blog__Post--image" alt="The Weatherheads summer in Barbados" src="/assets/images/blogs/happy-birthday-mom/summer_in_barbados.jpg" />
+      <figcaption>The Weatherheads summer in Barbados</figcaption>
+    </figure>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <figure>
+      <img class="Blog__Post--image" alt="Sailing in Bermuda" src="/assets/images/blogs/happy-birthday-mom/sailing_in_bermuda.jpg" />
+      <figcaption>Sailing in Bermuda</figcaption>
+  </figure>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <figure>
+      <img class="Blog__Post--image" alt="Getting firewood in Wales" src="/assets/images/blogs/happy-birthday-mom/outward_bound_wales.jpg" />
+      <figcaption>Getting firewood in Wales</figcaption>
+  </figure>
+  </div>
+</div>
+
+<div class="Blog__Post--image_1-col row">
+  <div class="col-xs-12">
+    <figure>
+      <img class="Blog__Post--image" alt="Performing with the Disco40 dance team" src="/assets/images/blogs/happy-birthday-mom/disco_dancing.jpg" />
+      <figcaption>Performing with the Disco40 dance team</figcaption>
+    </figure>
+  </div>
+</div>
 
 When you got sick you berated me from your hospital bed about not letting your illness be my excuse to fail my exams or not go to university or even miss prom. Because life isn’t always easy but that doesn’t mean you get to give up on yourself. Look for the moments of light, even when you want to give into the darkness.
 
-![High school prom](/assets/images/blogs/happy-birthday-mom/prom.jpg)
+
+<div class="Blog__Post--image_2-col row">
+  <div class="col-xs-12 col-sm-4">
+    <figure>
+      <img class="Blog__Post--image" alt="High school prom" src="/assets/images/blogs/happy-birthday-mom/prom.jpg" />
+      <figcaption>High school prom</figcaption>
+    </figure>
+  </div>
+  <div class="col-xs-12 col-sm-8">
+    <figure>
+      <img class="Blog__Post--image" alt="First day at NYU" src="/assets/images/blogs/happy-birthday-mom/NYU.jpg" />
+      <figcaption>First day at NYU</figcaption>
+    </figure>
+  </div>
+</div>
 
 The lessons didn’t stop at life either. When we lost you to cancer in 2007 it was devastating to the whole family. This vital glue that had kept us together was suddenly gone and I think we all shattered a bit without you. But even at the darkest times you seemed to be there, just around the corner or hiding in the background, with your usual no nonsense, no excuses look, pushing us to keep going.
 
 At the funeral the church was filled to the brim with people from all walks of life. Everyone, whether they were a childhood friend, PTA parent or someone you knew from the grocery store, had a story to tell. It was a reminder to me that life exists outside of our inherently inward looking selves. No one knows how long they’ll have on this earth. But the actions and choices we make impact those around us. I want to leave behind good ripples.
 
-![First day at NYU](/assets/images/blogs/happy-birthday-mom/NYU.jpg)
-
 As requested your ashes were divided and spread in two places. One half buried at the church so we’d “always have a place to visit” and the other out to sea so you could “follow us wherever life took us.” I never thought I’d be rowing across that same exact same ocean a decade later. While I generally avoid spending too much time with myself and my thoughts (it can be a dangerous place to dwell) I’m looking forward to the reflection time, especially somewhere I associate so closely with you. Maybe it’ll give us a chance to catch up, I’ll listen for your voice in the waves.
 
-![Family](/assets/images/blogs/happy-birthday-mom/family.jpg)
+<div class="Blog__Post--image_1-col row">
+  <div class="col-xs-12">
+    <img class="Blog__Post--image" alt="Performing with the Disco40 dance team" src="/assets/images/blogs/happy-birthday-mom/family.jpg" />
+  </div>
+</div>
 
 I flew home this year a few days shy of my birthday because I needed to tell Dad about the row but I also needed to be home for your 10 year anniversary. I’m not sure why it felt so important to me this year but it was. I needed to show you that while the past decade has been far from easy I think I’m turning out okay. I’m embracing challenge and charity and I’m not going to let the fact that I’m terrified roughly 60% of the time stop me. Because I want to leave behind great stories, good vibes and endless joy. Like my mother did.
 

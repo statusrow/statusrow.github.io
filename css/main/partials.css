@@ -265,8 +265,27 @@ ul.Social-icons > li {
   max-width: 100%;
   margin: 20px auto;
 }
-
+.Blog__Post--image_1-col,
+.Blog__Post--image_2-col,
+.Blog__Post--image_3-col {
+  text-align: center;
+  margin: 20px auto;
+}
 @media only screen and (min-width: 768px) {
+  .Blog__Post--image_1-col img.Blog__Post--image,
+  .Blog__Post--image_2-col img.Blog__Post--image,
+  .Blog__Post--image_3-col img.Blog__Post--image {
+      float: none;
+      max-width: 100%;
+      margin: 20px auto 5px;
+      padding: 0;
+  }
+  .Blog__Post--image_2-col img.Blog__Post--image {
+    max-height: 400px;
+  }
+  .Blog__Post--image_3-col img.Blog__Post--image {
+    max-height: 270px;
+  }
   .Blog__Post--content img {
     max-width: 50%;
     float: right;
@@ -284,6 +303,7 @@ ul.Social-icons > li {
     margin-left: 0;
     margin-right: 20px;
   }
+
 }
 
 .Post__video {
