@@ -3,7 +3,7 @@ layout: post
 title: Happy Birthday Mom, I wish you were here.
 subtitle: To the woman who taught me what it means to live.
 description: Losing a parent is never easy but, a decade later, Jess is reflecting on how her mother helped shape her character and inspired her to row across the Atlantic.
-date: 2017-12-11
+date: 2017-12-09
 author: Jess Rego
 ---
 Dear Mom,
