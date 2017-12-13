@@ -100,4 +100,4 @@ Love always,
 
 Jess
 
-In memory of Gail Lorraine (Weatherhead) Rego.
+In memory of Gail Lauraine (Weatherhead) Rego.
