@@ -20,7 +20,7 @@ I’d like to think that while Dad and Kristen are skeptical (at best) and tryin
 
 And I know that no matter how long it took us, you’d be waiting on the dock in Antigua.
 
-It occurred to me the other day that you’re a big part of why I agreed to do this race. Growing up you had such incredible stories of the adventures you went on as a teenager. From intense Duke of Edinburgh expeditions to your colourful stories of (underage, tsk tsk) nights on the town with your Disco 40 friends. I’ll never forget our last summer together when, in between Wimbledon sets, you told me about one whirlwind trip to Barbados with Aunt Jane. Tearing it up the way only Weatherhead women could.
+It occurred to me the other day that you’re a big part of why I agreed to do this race. Growing up you had such incredible stories of the adventures you went on as a teenager. From intense Duke of Edinburgh expeditions to your colourful stories of (underage, tsk tsk) nights on the town with your Disco 40 friends. I’ll never forget our last summer together when, in between Wimbledon sets, you told me about one whirlwind trip to Barbados with Aunt Sharon. Tearing it up the way only Weatherhead women could.
 
 You taught me to embrace a challenge and that the best stories come from a life well lived.
 
