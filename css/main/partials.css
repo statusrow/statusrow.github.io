@@ -318,7 +318,26 @@ ul.Social-icons > li {
 .Press h2 {
   margin-bottom: 30px;
 }
+.Press__grid {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: baseline;
+  flex-wrap: wrap;
+}
 .Press__article {
   border: 1px solid lightgrey;
   padding: 20px;
+  width: 300px;
+  margin: 10px auto;
+}
+.Press__article__header {
+  height: 80px;
+}
+.Press__article__header img {
+  max-width: 100%;
+  max-height: 60px;
+}
+.Press__article .btn {
+  width: 90%;
+  align-self: flex-end;
 }
