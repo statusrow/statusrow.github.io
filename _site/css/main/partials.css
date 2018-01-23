@@ -173,9 +173,14 @@ ul.Social-icons > li {
 .Partners img {
   max-width: 100%;
 }
-.Partner--content {
-  display: inline-block;
+.PartnersGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
+
 .Partner__Level--bronze img {
   max-width: 200px;
   max-height: 130px;
