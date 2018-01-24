@@ -10,7 +10,7 @@ author: Susan Ronaldson
 [ronan]: https://lachkarronan.myportfolio.com/
 [plastictide]: https://www.theplastictide.com/
 [adventureblog]: http://theadventureblog.blogspot.co.uk/2017/10/all-female-rowing-team-set-to-take-on.html
-[pdf]: http://www.statusrow.com/assets/documents/status_row_partnership_opportunities.pdf
+[pdf]: http://www.statusrow.com/assets/documents/Status_Row_Sponsorship_Opportunities.pdf
 [pulsin]: https://www.pulsin.co.uk/
 [lenstec]: http://lenstecopticalgroup.co.uk/
 [firstclasssailing]: https://www.firstclasssailing.com/
