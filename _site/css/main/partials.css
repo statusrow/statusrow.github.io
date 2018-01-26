@@ -346,3 +346,16 @@ ul.Social-icons > li {
   width: 90%;
   align-self: flex-end;
 }
+
+.video {
+  text-align: center;
+}
+.video iframe {
+  max-width: 100%;
+}
+@media only screen and (min-width: 768px) {
+.video iframe {
+  width: 560px;
+  height: 315px;
+  }
+}

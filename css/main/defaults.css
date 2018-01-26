@@ -114,8 +114,10 @@ img {
   max-width: 100%;
 }
 img.Image--circle {
-  border-radius: 200px;
-  max-width: 100%;
+  border-radius: 500px;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
 }
 img.Image--right {
   float: right;
