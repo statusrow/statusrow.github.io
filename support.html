@@ -4,6 +4,11 @@ title: Support Status Row
 description: Support team Status Row in their mission to reach the start line of the Talisker Whisky Atlantic Challenge 2018. We can't do it without you.
 permalink: /support/
 ---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js">
+</script>
+<script>
+    moment().format();
+</script>
 
 <section class="Hero__Global">
     <div class="container">
@@ -32,220 +37,350 @@ permalink: /support/
         <p>We're working hard to raise funds in support of the Marine Conservation Society, but we're faced with costs of over £80,000 just to get to the start line.</p>
         <p>For <a href="/mission">our mission</a> to be realised, we need to fund a boat, technical and life-saving equipment, on-shore support, food and other operational costs. It's a huge target that we can only achieve through a combination of the team's savings, corporate sponsorship (our support-oars) and <a href="{{ site.baseurl }}/100-club">the 100 club</a>.</p>
         <p>After the race, we will sell the boat and technical equipment to recoup some of the costs. All the money recouped from the sale will be added to the charitable donations.</p>
-        <br />
-        <p>You can donate using the ShieldPay links below or, to ensure that we receive 100% of your donation, please <a href="mailto:hello@statusrow.com">contact us to arrange a transfer</a>.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <div class="Support__Logo">
-          <img src="{{ site.baseurl }}/assets/images/support/100_club_logo.png" alt="Join the Status Row 100 club" />
-          <p>Support the team and get your name on the boat!</p>
-          <p><a href="{{ site.baseurl }}/100-club">Learn more ></a></p>
-          <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
-            <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
-
-
-            <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
-
-            <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="100" />
-            <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Please enter your name in the description" />
-            <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="Complete your donation below" />
-            <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
-            <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
-            <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
-            <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
-            <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row 100 Club" />
-
-
-            <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
-
-
-            <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
-            <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
-
-            <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
-            <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
-
-            <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
-            <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="/assets/images/support/donate_with_shield_pay.png" width="250" alt="shieldpay" align="middle" /></button>
-          </form>
-
-
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-6">
-        <div class="Support__Logo">
-          <img src="{{ site.baseurl }}/assets/images/support/corporate_logo.png" alt="Status Row Corporate Sponsorship Packages" />
-          <p>Is your business looking to gain exposure on a global stage?</p>
-          <p>View our exciting range of opportunities.</p>
-
-          <p><a href="/assets/documents/Status_Row_Sponsorship_Opportunities.pdf" download class="btn btn-secondary btn-lg">Download</a></p>
-        </div>
-      </div>
+<div class="Support__Content container">
+  <div class="Support__DonationsGrid">
+    <div class="Support__Logo">
+      <img src="{{ site.baseurl }}/assets/images/support/100_club_logo.png" alt="Join the Status Row 100 club" />
+      <p>Support the team and get your name on the boat!</p>
+      <p><a href="{{ site.baseurl }}/100-club">Learn more ></a></p>
+      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
+        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
+        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
+        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="100" />
+        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Please enter your name in the description" />
+        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="Complete your donation below" />
+        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
+        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
+        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
+        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
+        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row 100 Club" />
+        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
+        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
+        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
+        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
+        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
+        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="/assets/images/support/donate_with_shield_pay.png" width="250" alt="shieldpay" align="middle" /></button>
+      </form>
     </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <div class="Support__Logo">
-          <img src="/assets/images/support/60_donation_logo.png" alt="Donate £60 to support Status Row" />
-          <p>A donation of £60 is enough to equip one of our crew with an essential life jacket.</p>
-          <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
-            <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
 
+    <div class="Support__Logo">
+      <img src="{{ site.baseurl }}/assets/images/support/corporate_logo.png" alt="Status Row Corporate Sponsorship Packages" />
+      <p>Is your business looking to gain exposure on a global stage?</p>
+      <p>View our exciting range of opportunities.</p>
 
-            <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
+      <p><a href="/assets/documents/Status_Row_Sponsorship_Opportunities.pdf" download class="btn btn-secondary btn-lg">Download</a></p>
+    </div>
 
-            <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="60" />
-            <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Please enter your name in the description" />
-            <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="Complete your donation below" />
-            <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
-            <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
-            <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
-            <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
-            <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row £60 Donation" />
+    <div class="Support__Logo">
+      <img src="/assets/images/support/60_donation_logo.png" alt="Donate £60 to support Status Row" />
+      <p>A donation of £60 is enough to equip one of our crew with an essential life jacket.</p>
+      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
+        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
+        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
+        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="60" />
+        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Please enter your name in the description" />
+        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="Complete your donation below" />
+        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
+        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
+        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
+        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
+        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row £60 Donation" />
+        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
+        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
+        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
+        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
+        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
+        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.png" width="250" alt="shieldpay" align="middle" /></button>
+      </form>
+    </div>
 
-
-            <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
-
-
-            <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
-            <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
-
-            <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
-            <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
-
-            <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
-            <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.png" width="250" alt="shieldpay" align="middle" /></button>
-          </form>
-
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-6">
-        <div class="Support__Logo">
-          <img src="{{ site.baseurl }}/assets/images/support/30_donation_logo.png" alt="Donate £30 to support Status Row" />
-          <p>A donation of £30 will provide us with enough food for one crew member for a day. (When you're burning 8,000 kcal/day you need a lot of food!)</p>
-          <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
-            <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
-
-
-            <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
-
-            <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="30" />
-            <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Please enter your name in the description" />
-            <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="Complete your donation below" />
-            <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
-            <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
-            <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
-            <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
-            <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
-            <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row £30 Donation" />
-
-
-            <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
-
-
-            <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
-            <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
-
-            <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
-            <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
-            <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
-
-            <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
-            <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.png" width="250" alt="shieldpay" align="middle" /></button>
-          </form>
-
-        </div>
-      </div>
+    <div class="Support__Logo">
+      <img src="{{ site.baseurl }}/assets/images/support/30_donation_logo.png" alt="Donate £30 to support Status Row" />
+      <p>A donation of £30 will provide us with enough food for one crew member for a day. (When you're burning 8,000 kcal/day you need a lot of food!)</p>
+      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
+        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
+        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
+        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="30" />
+        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Please enter your name in the description" />
+        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="Complete your donation below" />
+        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
+        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
+        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
+        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
+        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row £30 Donation" />
+        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
+        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
+        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
+        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
+        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
+        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.png" width="250" alt="shieldpay" align="middle" /></button>
+      </form>
     </div>
   </div>
-</section>
+  <div class="Support__SupportOars">
+    <h2 class="SupportOarGrid__header">Support-oars</h2>
 
-<section>
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-xs-12">
-        <br />
-        <hr />
-        <br />
-        <h2>General Donations</h2>
-        <p>Use this button to enter any amount that you wish to donate in support of the team.</p>
-        <br />
-        <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
-          <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
-
-
-          <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
-
-          <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="0" />
-          <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Please enter your name in the description" />
-          <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="Complete your donation below" />
-          <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
-          <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
-          <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
-          <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
-          <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
-          <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
-          <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
-          <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row Donation" />
-
-
-          <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
-          <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
-          <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
-          <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
-          <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
-          <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
-
-
-          <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
-          <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="Yes" />
-
-          <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
-          <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
-          <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
-
-          <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
-          <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.png" width="250" alt="shieldpay" align="middle" /></button>
-        </form>
-
+    <div class="Support__SupportOarGrid">
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Anonymous</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--16">
+            <script>
+              var time = moment('2018-01-28').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--16').innerHTML = time;
+            </script>
+          </p>
+        </div>
       </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Sue & Dave</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--15">
+            <script>
+              var time = moment('2018-01-21').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--15').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">Good for you - a worthy cause! Wishing you all the very best of luck. Love Auntie Sue & Uncle Dave</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Anonymous</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--14">
+            <script>
+              var time = moment('2018-01-19').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--14').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">Plastic is a cancer in our environment and nature. Let's wipe it out! Brave girls! Xx</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Geoff Dunnett</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--13">
+            <script>
+              var time = moment('2018-01-16').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--13').innerHTML = time;
+            </script>
+          </p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Wendy Wagstaff</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--12">
+            <script>
+              var time = moment('2017-12-14').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--12').innerHTML = time;
+            </script>
+          </p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Gemma & Peter Goffin</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--11">
+            <script>
+              var time = moment('2017-12-06').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--11').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">Best of luck and stay oarsome!</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Mercedes Rosello</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--10">
+            <script>
+              var time = moment('2017-12-05').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--10').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">Good luck ladies! With best wishes, Mercedes Rosello</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Jackie Davies</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--09">
+            <script>
+              var time = moment('2017-11-23').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--09').innerHTML = time;
+            </script>
+          </p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Amanda Caven</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--08">
+            <script>
+              var time = moment('2017-11-17').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--08').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">Great cause. Good Luck. Amanda.</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Steven Hall</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--07">
+            <script>
+              var time = moment('2017-11-10').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--07').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">Just fucking do it!</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Lynne Medlock</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--06">
+            <script>
+              var time = moment('2017-11-02').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--06').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">Best of luck and stay oarsome!</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Elliott Newell</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--05">
+            <script>
+              var time = moment('2017-10-31').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--05').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">Best of luck and stay oarsome!</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Tom Hoad</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--04">
+            <script>
+              var time = moment('2017-10-27').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--04').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">You are insane. Good luck.</p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Mamun Miah</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--03">
+            <script>
+              var time = moment('2017-10-16').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--03').innerHTML = time;
+            </script>
+          </p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Stephanie Howard</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--02">
+            <script>
+              var time = moment('2017-10-10').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--02').innerHTML = time;
+            </script>
+          </p>
+        </div>
+      </div>
+
+      <div class="SupportOar__tile">
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_name">Jeannine Duk</p>
+          <p class="SupportOar__tile_when" id="SupportOar__tile--01">
+            <script>
+              var time = moment('2017-10-08').startOf('day').fromNow();
+              document.getElementById('SupportOar__tile--01').innerHTML = time;
+            </script>
+          </p>
+        </div>
+        <div class="SupportOar__tile_headine">
+          <p class="SupportOar__tile_message">What a fantastic idea. Good luck. The Duk family</p>
+        </div>
+      </div>
+
     </div>
   </div>
-</section>
-
+</div>
 <section class="Quotes">
   <div class="container">
     <div class="row">

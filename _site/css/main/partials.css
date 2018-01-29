@@ -195,12 +195,6 @@ ul.Social-icons > li {
    padding: 30px 0;
  }
 
- /* Support */
- .Support__Logo {
-   text-align: center;
-   margin: 60px auto;
- }
-
 /* Quotes */
  .Quotes {
    margin: 60px auto;
@@ -358,4 +352,73 @@ ul.Social-icons > li {
   width: 560px;
   height: 315px;
   }
+}
+
+
+ /* Support */
+.Support__Content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.Support__DonationsGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Support__DonationsGrid .Support__Logo {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .Support__Content {
+    flex-wrap: nowrap;
+  }
+
+  .Support__DonationsGrid .Support__Logo {
+    width: 50%;
+  }
+  .Support__DonationsGrid .Support__Logo {
+    padding-left: 0;
+  }
+}
+
+.Support__SupportOarGrid {
+  min-width: 290px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--blue--primary);
+  border-radius: 4px;
+  overflow: scroll;
+  max-height: 850px;
+}
+.SupportOarGrid__header {
+  color: var(--blue--dark);
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.SupportOar__tile {
+  border-bottom: 1px solid var(--blue--dark);
+  padding: 15px 0;
+}
+.SupportOar__tile_headine {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.SupportOar__tile_name {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.SupportOar__tile_when {
+  font-weight: 300;
+  font-style: italic;
+  color: var(--white);
+  margin-bottom: 0;
+  min-width: 115px;
+  text-align: right;
+}
+.SupportOar__tile_message {
+  margin-bottom: 0;
 }
