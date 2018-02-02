@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's all about you
-description:
+description: I've been blown away by the personal messages we've received so far. It's incredible to see that we're making a difference.
 subtitle: And the things you do
 date: 2018-02-02
 author: Caroline Wilson
@@ -18,7 +18,7 @@ One of the things that has absolutely blown me away over the last 6 months, is t
 
 The truth is, we need to raise a significant amount of money, without which, our row across the Atlantic won't happen. But what I hadn’t fully appreciated until now, is the huge impact that we're making even before we step foot on our (yet to be purchased) ocean rowing boat.  
 
-Friends whilst on holiday in Bali have messaged me to share images of the shocking state of plastic in the sea and on the beaches over there. My own family whilst on holiday in Malaysia spent the mornings out kayaking to remove floating plastic - they did such an incredible job that by the time they went to take some pictures to share, they’d cleared the area! A family very dear to me recently had a family outing to the beach where they joined the MCS for a beach clean, inspired by Status Row. The Goffin’s (members of our [100 club][100club]) have made the switch to reusable coffee cups and refillable coffee machine capsules. The Heatley’s are doing everything they can to cut down on their single-use plastic consumption at home. My incredible and inspiring group of girlfriends from high school are on a mission to equip the lot of us with [KeepCups][KeepCups]. I could go on with the list but I’ll save that for the [Instagram stories][insta].
+Friends whilst on holiday in Bali have messaged me to share images of the shocking state of plastic in the sea and on the beaches over there. My own family whilst on holiday in Malaysia spent the mornings out kayaking to remove floating plastic - they did such an incredible job that by the time they went to take some pictures to share, they’d cleared the area! A family very dear to me recently had a family outing to the beach where they joined the MCS for a beach clean, inspired by Status Row. The Goffin’s (members of our [100 club][100club]) have made the switch to reusable coffee cups and refillable coffee machine capsules. The Heatley’s are doing everything they can to cut down on their single-use plastic consumption at home. My incredible and inspiring group of girlfriends from high school are on a mission to equip the lot of us with [reusable coffee cups][KeepCups]. I could go on with the list but I’ll save that for the [Instagram stories][insta].
 
 I really can't explain how life-changing it feels to know that we're actually making a difference. Even this morning a colleague told me how much I'm inspiring the people around me. My heart just melted when he said this.  
 
