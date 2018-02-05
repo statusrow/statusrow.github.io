@@ -211,6 +211,9 @@ ul.Social-icons > li {
  .Quotes__list .Quotes__card:nth-child(even) p {
    color: var(--yellow);
  }
+ .Quotes__list .Quotes__card:nth-child(even) a:hover {
+   color: var(--white);
+ }
  .Quotes__list .Quotes__card:nth-child(even) {
    background: linear-gradient(var(--blue--dark), #4E5D73);
  }
@@ -228,6 +231,9 @@ ul.Social-icons > li {
  .Quotes__card p {
    margin-bottom: 0;
    text-align: center;
+ }
+ .Quotes__card a:hover {
+   color: var(--blue-dark);
  }
 
  @media only screen and (min-width: 768px) {
