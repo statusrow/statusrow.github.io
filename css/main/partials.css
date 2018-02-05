@@ -370,7 +370,15 @@ ul.Social-icons > li {
   width: 100%;
   padding: 30px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
 }
+.Support__DonationsGrid .Support__Logo form {
+  align-self: flex-end;
+}
+
 @media only screen and (min-width: 768px) {
   .Support__Content {
     flex-wrap: nowrap;
@@ -388,10 +396,10 @@ ul.Social-icons > li {
   min-width: 290px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: var(--blue--primary);
+  background-color: var(--blue--shadow);
   border-radius: 4px;
   overflow: scroll;
-  max-height: 850px;
+  max-height: 1130px;
 }
 .SupportOarGrid__header {
   color: var(--blue--dark);
@@ -399,7 +407,7 @@ ul.Social-icons > li {
   margin-bottom: 30px;
 }
 .SupportOar__tile {
-  border-bottom: 1px solid var(--blue--dark);
+  border-bottom: 1px solid var(--yellow);
   padding: 20px 0;
 }
 .SupportOar__tile_headine {
@@ -408,6 +416,7 @@ ul.Social-icons > li {
   justify-content: space-between;
 }
 .SupportOar__tile_name {
+  color: var(--yellow);
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -421,4 +430,5 @@ ul.Social-icons > li {
 }
 .SupportOar__tile_message {
   margin-bottom: 0;
+  color: var(--white);
 }
