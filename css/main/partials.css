@@ -202,31 +202,39 @@ ul.Social-icons > li {
  .Quotes h2 {
    text-align: center;
  }
- .Quotes__card {
-   width: 100%;
-   background: var(--yellow);
-   color: var(--blue--dark);
-   padding: 30px;
-   border-radius: 3px;
-   margin: 10px;
- }
  .Quotes__list {
    margin-top: 60px;
    display: flex;
+   justify-content: space-between;
    flex-wrap: wrap;
-   align-items: center;
  }
- .Quotes__list .col-xs-12:nth-child(even) .Quotes__card p{
+ .Quotes__list .Quotes__card:nth-child(even) p {
    color: var(--yellow);
  }
- .Quotes__list .col-xs-12:nth-child(even) .Quotes__card {
+ .Quotes__list .Quotes__card:nth-child(even) {
+   background: linear-gradient(var(--blue--dark), #4E5D73);
+ }
+ .Quotes__card {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    width: 100%;
-   background: var(--blue--dark);
+   background: linear-gradient(var(--yellow), #FFFF6E);
+   color: var(--blue--dark);
    padding: 30px;
    border-radius: 3px;
-   margin: 10px;
+   margin-bottom: 10px;
+ }
+ .Quotes__card p {
+   margin-bottom: 0;
+   text-align: center;
  }
 
+ @media only screen and (min-width: 768px) {
+    .Quotes__card {
+      width: 32%;
+    }
+ }
 /* Blog - home */
 .Post__Grid.row {
   display: flex;
