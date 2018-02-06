@@ -380,6 +380,9 @@ ul.Social-icons > li {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.Support__DonationsGrid .Support__Logo p {
+  width: 100%;
+}
 .Support__DonationsGrid .Support__Logo {
   width: 100%;
   padding: 30px;
