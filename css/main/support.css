@@ -75,6 +75,7 @@
 .SupportHero__Social--button p {
   margin-bottom: 0;
   color: white;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .SupportHero__Social--icon {
