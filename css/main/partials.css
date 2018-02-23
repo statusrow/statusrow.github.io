@@ -194,53 +194,7 @@ ul.Social-icons > li {
    background-color: var(--blue--shadow);
    padding: 30px 0;
  }
-
-/* Quotes */
- .Quotes {
-   margin: 60px auto;
- }
- .Quotes h2 {
-   text-align: center;
- }
- .Quotes__list {
-   margin-top: 60px;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
- }
- .Quotes__list .Quotes__card:nth-child(even) p {
-   color: var(--yellow);
- }
- .Quotes__list .Quotes__card:nth-child(even) a:hover {
-   color: var(--white);
- }
- .Quotes__list .Quotes__card:nth-child(even) {
-   background: linear-gradient(var(--blue--dark), #4E5D73);
- }
- .Quotes__card {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-   background: linear-gradient(var(--yellow), #FFFF6E);
-   color: var(--blue--dark);
-   padding: 30px;
-   border-radius: 3px;
-   margin-bottom: 10px;
- }
- .Quotes__card p {
-   margin-bottom: 0;
-   text-align: center;
- }
- .Quotes__card a:hover {
-   color: var(--blue-dark);
- }
-
- @media only screen and (min-width: 768px) {
-    .Quotes__card {
-      width: 32%;
-    }
- }
+ 
 /* Blog - home */
 .Post__Grid.row {
   display: flex;
@@ -407,45 +361,4 @@ ul.Social-icons > li {
   .Support__DonationsGrid .Support__Logo {
     padding-left: 0;
   }
-}
-
-.Support__SupportOarGrid {
-  min-width: 290px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: var(--blue--shadow);
-  border-radius: 4px;
-  overflow: scroll;
-  max-height: 1130px;
-}
-.SupportOarGrid__header {
-  color: var(--blue--dark);
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-.SupportOar__tile {
-  border-bottom: 1px solid var(--yellow);
-  padding: 20px 0;
-}
-.SupportOar__tile_headine {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-.SupportOar__tile_name {
-  color: var(--yellow);
-  font-weight: 600;
-  margin-bottom: 0;
-}
-.SupportOar__tile_when {
-  font-weight: 300;
-  font-style: italic;
-  color: var(--white);
-  margin-bottom: 0;
-  min-width: 115px;
-  text-align: right;
-}
-.SupportOar__tile_message {
-  margin-bottom: 0;
-  color: var(--white);
 }

@@ -10,45 +10,679 @@ permalink: /support/
     moment().format();
 </script>
 
-<section class="Hero__Global">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                  <h1>We can't get there without you</h1>
-                  <p>Support Status Row get the start line of "The Worlds Toughest Row"</p>
-                </div>
-            </div>
-        </div>
+<div class="SupportHero">
+  <div class="SupportHero__Header">
+    <div class="SupportHero__Headline">
+      <h1>Talisker Whisky Atlantic Challenge 2018</h1>
+      <h2>If we can row an ocean, can you say no to a straw?</h2>
+      <p>3 ordinary women rowing 3,000 miles across the Atlantic this December, to challenge our everyday use of single-use plastic.</p>
+      <p>Achieving our mission will only be possible with a fleet of special supporters.</p>
     </div>
-</section>
 
-<div class="row">
-  <div class="col-xs-12">
-    <p class="credit">Image courtesy of Rannoch Adventure</p>
+    <div class="SupportHero__Footer">
+      <div class="SupportHero__Targets">
+          <div class="SupportHero__Progress">
+            <div class="SupportHero__Progress--bar">
+              <div class="SupportHero__Progress--progress"></div>
+            </div>
+          </div>
+
+          <p>23% of £100,000 goal</p>
+      </div>
+
+      <div class="SupportHero__Social">
+        <a class="SupportHero__Social--button btn btn-primary" href="#donate">
+          <p>Support us</p>
+        </a>
+        <div class="SupportHero__Social--icon">
+          <a href="https://www.facebook.com/statusrow/" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+        </div>
+        <div class="SupportHero__Social--icon">
+          <a href="https://www.instagram.com/statusrow/" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
+        </div>
+        <div class="SupportHero__Social--icon">
+          <a href="https://twitter.com/StatusRow" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+        </div>
+        <div class="SupportHero__Social--icon">
+          <a href="mailto:hello@statusrow.com"><i class="fa fa-2x fa-envelope-o"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="SupportHero__Video">
+    <iframe src="https://www.youtube.com/embed/01i1ktqHyBk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 </div>
 
-<!-- Content Start -->
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <p>We're working hard to raise funds in support of the Marine Conservation Society, but we're faced with costs of over £100,000 just to get to the start line.</p>
-        <p>For <a href="/mission">our mission</a> to be realised, we need to fund a boat, technical and life-saving equipment, on-shore support, food and other operational costs. It's a huge target that we can only achieve through a combination of the team's savings, corporate sponsorship (our support-oars) and <a href="{{ site.baseurl }}/100-club">the 100 club</a>.</p>
-        <p>After the race, we will sell the boat and technical equipment to recoup some of the costs. All the money recouped from the sale will be added to the charitable donations.</p>
+<div class="SupportContent">
+  <div class="SupportContent__Details">
+
+    <div class="SupportContent__Menu">
+      <div onclick="showStory()" class="active" id="menuStory">Our Story</div>
+      <div onclick="showSupportoars()" id="menuSupportoar">Support-oars (26)</div>
+      <div onclick="showMessages()" id="menuMessages">Messages</div>
+    </div>
+
+    <div id="story">
+      <p>Racing in the 2018 Talisker Whisky Atlantic Challenge this amateur all-female trio will row 24 hours a day for over 50 days from the Canaries to Antigua.</p>
+
+      <p>It is estimated that by 2050 there will be more plastic in the ocean than fish.</p>
+
+      <p>We are rowing in support of the Marine Conservation Society to educate, inspire & drive change. Everyone’s actions have an impact on the health of our oceans, and each of us can do something about it, starting today.</p>
+
+      <img src="{{ baseurl }}/assets/images/status_rowing.jpg" alt="Status Row out rowing with Rannoch Adventure on an R45 ocean rowing boat" />
+
+      <div id="reveal" class="RevealMore" onclick="revealStory()">
+        <p>Read more</p>
+      </div>
+
+      <div id="revealStory" class="suppress">
+        <p>In December 2018, we'll join around 30 boats from around the world at the start line La Gomera to compete in the Talisker Whisky Atlantic Challenge - the world’s toughest row. We will be the second <i>ever</i> all-female trio to do so.</p>
+
+        <p>For our mission to be realised, we need to fund a boat, technical and life-saving equipment, on-shore support, food and other operational costs. It's a huge target that we can only achieve through a combination of the team's savings, corporate sponsorship (our support-oars) and the 100 club.</p>
+
+        <p>After the race, we will sell the boat and technical equipment to recoup some of the costs. All the money recouped from the sale will be donated to the <a href="{{ baseurl}}/mission">Marine Conservation Society</a>.</p>
+
+        <img src="{{ baseurl }}/assets/images/status_row_square.jpg" alt="Status Row with Rannoch Adventure R45 ocean rowing boat" />
+
+        <p>At the mercy of the elements, we will face a constant battle of sleep deprivation, salt sores and the physical extremes of rowing for 12 hours a day - 2 hours on, 2 hours off. With each exhausting stroke of the oars we'll have just one focus: to get the boat and crew safely to the finish line. It will undoubtedly be the toughest challenge of our lives but if successful we will enter an elite club - more people have climbed Everest than have rowed the Atlantic. Read more about the <a href="{{ baseurl }}/talisker-whisky-atlantic-challenge">Talisker Whisky Atlantic Challenge</a>.</p>
+
       </div>
     </div>
+
+    <div id="supportoars" class="suppress">
+      <div class="Support__SupportOars">
+        <div class="Support__SupportOarGrid">
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Natacha</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--26">
+                <script>
+                  var time = moment('2018-02-18').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--26').innerHTML = time;
+                </script>
+              </p>
+            </div>
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_message">I bet it is not chocolate but hope it keeps you going! x</p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Claire</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--25">
+                <script>
+                  var time = moment('2018-02-13').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--25').innerHTML = time;
+                </script>
+              </p>
+            </div>
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_message">(the one looking after Suze in Pucon on the night this all started!!)</p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Claire</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--24">
+                <script>
+                  var time = moment('2018-02-12').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--24').innerHTML = time;
+                </script>
+              </p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Ray & Sally</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--23">
+                <script>
+                  var time = moment('2018-02-12').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--23').innerHTML = time;
+                </script>
+              </p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Seb</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--22">
+                <script>
+                  var time = moment('2018-02-11').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--22').innerHTML = time;
+                </script>
+              </p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Sophie</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--21">
+                <script>
+                  var time = moment('2018-02-11').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--21').innerHTML = time;
+                </script>
+              </p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Nick & Brid</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--20">
+                <script>
+                  var time = moment('2018-02-04').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--20').innerHTML = time;
+                </script>
+              </p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Jennifer</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--17">
+                <script>
+                  var time = moment('2018-01-29').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--17').innerHTML = time;
+                </script>
+              </p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Chris</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--16">
+                <script>
+                  var time = moment('2018-01-28').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--16').innerHTML = time;
+                </script>
+              </p>
+            </div>
+          </div>
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Sue & Dave</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--15">
+                <script>
+                  var time = moment('2018-01-21').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--15').innerHTML = time;
+                </script>
+              </p>
+            </div>
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_message">Good for you - a worthy cause! Wishing you all the very best of luck. Love Auntie Sue & Uncle Dave</p>
+            </div>
+          </div>
+
+          <div id="reveal2" class="RevealMore" onclick="revealSupportoar()">
+            <p>Read more</p>
+          </div>
+
+          <div id="revealSupportoar" class="suppress">
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Annabel</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--14">
+                  <script>
+                    var time = moment('2018-01-19').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--14').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_message">Plastic is a cancer in our environment and nature. Let's wipe it out! Brave girls! Xx</p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Geoff</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--13">
+                  <script>
+                    var time = moment('2018-01-16').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--13').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Wendy</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--12">
+                  <script>
+                    var time = moment('2017-12-14').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--12').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Gemma & Peter</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--11">
+                  <script>
+                    var time = moment('2017-12-06').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--11').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_message">Best of luck and stay oarsome!</p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Mercedes</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--10">
+                  <script>
+                    var time = moment('2017-12-05').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--10').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_message">Good luck ladies! With best wishes, Mercedes</p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Jackie</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--09">
+                  <script>
+                    var time = moment('2017-11-23').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--09').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Amanda</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--08">
+                  <script>
+                    var time = moment('2017-11-17').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--08').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_message">Great cause. Good Luck. Amanda.</p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Steven</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--07">
+                  <script>
+                    var time = moment('2017-11-10').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--07').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_message">Just f**king do it!</p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Lynne</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--06">
+                  <script>
+                    var time = moment('2017-11-02').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--06').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Elliott</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--05">
+                  <script>
+                    var time = moment('2017-10-31').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--05').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Tom</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--04">
+                  <script>
+                    var time = moment('2017-10-27').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--04').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_message">You are insane. Good luck.</p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Mamun</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--03">
+                  <script>
+                    var time = moment('2017-10-16').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--03').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Diana & Keith </p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--19">
+                  <script>
+                    var time = moment('2017-10-25').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--19').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Linda</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--18">
+                  <script>
+                    var time = moment('2017-10-10').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--18').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+              <div class="SupportOar__tile_headine">
+                <p class="SupportOar__tile_name">Stephanie</p>
+                <p class="SupportOar__tile_when" id="SupportOar__tile--02">
+                  <script>
+                    var time = moment('2017-10-10').startOf('day').fromNow();
+                    document.getElementById('SupportOar__tile--02').innerHTML = time;
+                  </script>
+                </p>
+              </div>
+            </div>
+            <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Jeannine</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--01">
+                <script>
+                  var time = moment('2017-10-08').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--01').innerHTML = time;
+                </script>
+              </p>
+            </div>
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_message">What a fantastic idea. Good luck.</p>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="messages" class="suppress Quotes">
+      <p>Some things our wonderful support-oars have said.</p>
+      <p>To get your message on the wall <a href="https://twitter.com/StatusRow">Tweet us</a> or tag @StatusRow in your Instagram and Facebook posts.</p>
+
+      <div class="Quotes__list">
+        <div class="Quotes__card">
+          <p>"Wow, great work ladies. What an inspiration! Off to tell my daughters all about you #rolemodels #rowing #plasticfree" - @vitorinadw</p>
+        </div>
+        <div class="Quotes__card">
+          <p>"Wow" - Davina McCall <br/><a href="https://twitter.com/ThisisDavina/status/947930075864936449" target="_blank">@ThisisDavina</a></p>
+        </div>
+        <div class="Quotes__card">
+          <p>"Thank you @StatusRow for visiting us to chat about your Atlantic Challenge! We look forward to seeing you row past #Southend later this year! #CleanSeas #plasticfree #twac2018" - <a href="https://twitter.com/RadioEssex/status/954306945271451648" target="_blank">@RadioEssex</a></p>
+        </div>
+        <div class="Quotes__card">
+          <p>"Every time I see a Status Row post I just think what you're doing is bloody amazing. You ladies absolutely rock!"</p>
+        </div>
+        <div class="Quotes__card">
+          <p>"I respect so much what you're trying to do! Wish you the best of luck and you will hopefully bring awareness to this horrible issue" - <a href="https://twitter.com/bridges2italy/status/958209162600525825" target="_blank">@bridges2italy</a></p>
+        </div>
+        <div class="Quotes__card">
+          <p>"Good luck girls. Several friends of mine have completed the crossing including Pete Lowe & James Cracknell. It’s a huge life achievement. Something I wish I’d done." - <a href="https://twitter.com/AklDesignChamp/status/957182536915894272" target="_blank">@AklDesignChamp</a></p>
+        </div>
+        <div class="Quotes__card">
+          <p>"Huge shoutout to @StatusRow for making the world a better place one piece of plastic at a time!! It’s a comparing run by three women who will be rowing across the Atlantic to challenge the worldwide use of plastics! Check them out! #plasticfree #zerowaste #pickwaste" - <a href="https://twitter.com/Pickwaste_/status/954410092023066626" target="_blank">@Pickwaste_</a></p>
+        </div>
+        <div class="Quotes__card">
+          <p>"When we all come together to solve the world’s litter problem, we make the biggest difference of all. Thanks to @OurOcean & @StatusRow for helping & create a #Plastic #PlasticWaste Free World 🌍 #WorldWithoutWaste!" - <a href="https://twitter.com/ramniranjan187/status/956971518751227904" target="_blank">@ramniranjan187</a></p>
+        </div>
+        <div class="Quotes__card">
+          <p>"Proud to support @StatusRow's fundraising efforts with #ShieldpayGiving! You can support the team at: https://hubs.ly/H09M8cD0  Good luck to the girls on their epic efforts to row the Atlantic for charity! #CleanSeas #plasticfree #twac2018" - <a href="https://twitter.com/shield_pay/status/956532589598257153" target="_blank">@shield_pay</a></p>
+        </div>
+        <div class="Quotes__card">
+          <p>"Keep up the gr8 work!  Appreciate your passion for a worthy cause!  Thank you for setting an excellent example!" - <a href="https://twitter.com/mMicksquared/status/962328080156065792" target="_blank">@mMicksquared</a></p>
+        </div>
+
+        <div id="reveal3" class="RevealMore" onclick="revealMessages()">
+          <p>Read more</p>
+        </div>
+
+        <div id="revealMessages" class="suppress">
+          <div class="Quotes__card">
+            <p>"Go! Or, rather: Row! Thank you for your efforts." - <a href="https://twitter.com/TheOceanTree/status/953266324494483456" target="_blank">@TheOceanTree</a></p>
+          </div>
+          <div class="Quotes__card">
+            <p>"A pleasure to meet you and support your great cause" - <a href="https://twitter.com/LenstecOptical" target="_blank">@LenstecOptical</a></p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Good luck @StatusRow. We are behind you. @shield_pay giving is on the cards!" - <a href="https://twitter.com/GeoffDunnett/status/953258342213935104" target="_blank">@GeoffDunnett</a></p>
+          </div>
+          <div class="Quotes__card">
+            <p>"WOW you have my attention & support you brave ladies. #prevention #plasticpollution #climateaction" - <a href="https://twitter.com/SharKirkpatrick/status/953200629324894208" target="_blank">@SharKirkpatrick</a></p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Good luck ladies! My cousin’s husband rowed Atlantic twice (many more attempts!) so I know it’s no picnic. Dig deep! " - <a href="https://twitter.com/erebusenv/status/952468039739564032" target="_blank">@erebusenv</a></p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Starting out my “cut out plastic” campaign. Small steps so purchased a SodaStream today. No more plastic bottles of sparkling water - #reuse #recycle." - <a href="https://twitter.com/EilsMG/status/948559290331287552" target="_blank">@EilsMG</a></p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Nothing is impossible if you have the inclination, passion, determination, support and enough money! Good Luck Ladies" - <a href="https://twitter.com/Kagsema/status/947961260888469504" target="_blank">@Kagsema</a></p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Epic! Amaaaazing inspiration!" - Kat Ford</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"@StatusRow you are so right it is always easy to find two mins to pick up litter ♥" - @MsGrateful27</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"You're representing Women, you're Ambassadors for Women. Good luck in All you do, we Appreciate you" - <a href="https://twitter.com/GaongalelwePhe1/status/947930210846105600" target="_blank">@GaongalelwePhe1</a></p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Wow Jessica, what an amazing mission you three are undertaking! wish you success & will be praying that you all keep safe!!" - Jose Weatherhead</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"So in awe and incredible proud of my niece. Jessica Rego you truly never do anything half way. Your family is with you and behind you 110%. You make us and Bermuda proud. Love you!!" - Jane Simmons</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"You've inspired me this week as I'm no longer getting a plastic lid on my flasks in the morning, and I'm trying to get everyone at work to use the metal cutlery instead of the plastic stuff."</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Wow! Caroline Wilson my utterly amazing youngest step daughter - your passion is overwhelming. Every single one of your friends and family will be there with you - on every pull of those oars. Love you to the moon and back X" - Sallie Wilson</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"@StatusRow I didn't know you existed until a few minutes ago! You're absolutely amazing #plasticpollution #plasticwaste I will be watching" - @wakeupwellbeing</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"You inspired me to get a good reusable drink bottle" - @BridOConnell</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"I bought plastic-free cotton buds this week!"</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"amazing thing you're doing... Will be watching closely" - @CEVokins</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Wow - what a challenge to take on for this important cause @StatusRow. Please read, share and support if you can everybody. #plastic #rowing" - @ElliottSportPsy</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"You've inspired me too! I've been resuing this bottle for about a month!"</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"I want to leave this world better than I found it" Awesome women rowing Atlantic for good of our world @StatusRow" - @HopeintheHearts</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Amazing, epic project. Incredibly envious" - @KateDobinson</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Wow! You go! What a fantastic mission. The best of luck to you" - @hennessypriest</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Amazing! we’re 100% behind you @StatusRow" - @BudeCleanerSeas</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"We support you Ladies, and the awareness you will bring ...!!!" - @nationsurf</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"What an amazing adventure you are taking on and for such a good cause. Impressive." - @demisthedash</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Bloody good luck with ur trip, ur gonna smash it! X" - Amber Harrison</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Your mission is fabulous."</p>
+          </div>
+          <div class="Quotes__card">
+          <p>"I really admire what you are doing, it's an incredible challenge, keep up the good work!" - @trashplasticnow</p>
+        </div>
+          <div class="Quotes__card">
+            <p>"Anyone wanting to row the Atlantic gets my vote! #gutsanddetermination" - @TrevorDiggers</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Wishing @StatusRow all the best in the @TaliskerRace 2018! Always great to see fearless women taking on the elements for the cause of #Conservation! #Atlantic #oceanrowing #soundslikehardwork" - @SailBritainCP</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Hello you beautiful people..... You have my support 100%. #endsingleuseplastics #citytosea #nataliefee #removeoceanplastic #marineconservation" - @TrevorDiggers</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Good luck @StatusRow we’re behind you!" - @weareinprogress</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Can't wait to follow your escapades! Everyone at @surfsenioritas is rooting for you!" - @surfsenioritas</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"You're awesome" - @cmwg_ato</p>
+          </div>
+          <div class="Quotes__card">
+            <p>"Your plastic posts have inspired me! I’ve cut our household use down a fair bit!"</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </div>
-</section>
 
-<div class="Support__Content container">
-  <div class="Support__DonationsGrid">
-    <div class="Support__Logo">
-      <img src="{{ site.baseurl }}/assets/images/support/100_club_logo.png" alt="Join the Status Row 100 club" />
-      <p>Support the team and get your name on the boat!</p>
-      <p><a href="{{ site.baseurl }}/100-club">Click here to learn more</a></p>
-
+  <div class="SupportContent__Donations" id="donate">
+    <h3>Support</h3>
+    <div class="SupportContent__DonationCard">
+      <h4>Give Any Amount</h4>
+      <p>All support is greatly appreciated, no matter how big or small.</p>
+      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
+        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
+        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
+        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="0" />
+        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Enter your name & message in the description" />
+        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="We'd love to add you to our support-oars wall! Add the name and message you want to appear in the description field below." />
+        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
+        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
+        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
+        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
+        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row Donation" />
+        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
+        <input type="hidden" class="form-control" id="CompanyLogoPath" name="CompanyLogoPath" placeholder="" value="http://www.statusrow.com/assets/images/logo_title_large.png" />
+        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="Yes" />
+        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
+        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
+        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
+        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.svg" width="250" alt="shieldpay" align="middle" /></button>
+      </form>
+    </div>
+    <div class="SupportContent__DonationCard">
+      <h4>Give £30</h4>
+      <p>A donation of £30 will provide us with enough food for one crew member for a day. (When you're burning 8,000 kcal/day you need a lot of food!)</p>
+      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
+        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
+        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
+        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="30" />
+        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Enter your name & message in the description" />
+        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="We'd love to add you to our support-oars wall! Add the name and message you want to appear in the description field below." />
+        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
+        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
+        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
+        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
+        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row £30 Donation" />
+        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
+        <input type="hidden" class="form-control" id="CompanyLogoPath" name="CompanyLogoPath" placeholder="" value="http://www.statusrow.com/assets/images/logo_title_large.png" />
+        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
+        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
+        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
+        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
+        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.svg" width="250" alt="shieldpay" align="middle" /></button>
+      </form>
+    </div>
+    <div class="SupportContent__DonationCard">
+      <h4>Give £60</h4>
+      <p>A donation of £60 is enough to equip one of our crew with an essential life jacket.</p>
+      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
+        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
+        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
+        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="60" />
+        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Enter your name & message in the description" />
+        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="we'd love to add you to our support-oars wall! Add the name and message you want to appear in the description field below." />
+        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
+        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
+        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
+        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
+        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
+        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row £60 Donation" />
+        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
+        <input type="hidden" class="form-control" id="CompanyLogoPath" name="CompanyLogoPath" placeholder="" value="http://www.statusrow.com/assets/images/logo_title_large.png" />
+        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
+        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
+        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
+        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
+        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
+        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.svg" width="250" alt="shieldpay" align="middle" /></button>
+      </form>
+    </div>
+    <div class="SupportContent__DonationCard">
+      <h4>Give £100</h4>
+      <p>Support the team and get your name on the boat! <a href="{{ baseurl }}/100-club" title="Status Row 100 Club">Read more about the 100 club here</a>.</p>
       <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
         <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
         <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
@@ -81,613 +715,90 @@ permalink: /support/
         </button>
       </form>
     </div>
-
-    <div class="Support__Logo">
-      <img src="{{ site.baseurl }}/assets/images/support/corporate_logo.png" alt="Status Row Corporate Sponsorship Packages" />
+    <div class="SupportContent__DonationCard">
+      <h4>Corporate Sponsorship</h4>
       <p>Is your business looking to gain exposure on a global stage?</p>
-      <p>View our exciting range of opportunities.</p>
-
+      <p>Get your logo on our boat from as little as £250!</p>
       <a href="/assets/documents/Status_Row_Sponsorship_Opportunities.pdf" download class="btn btn-secondary btn-lg">Download</a>
-    </div>
-
-    <div class="Support__Logo">
-      <img src="/assets/images/support/60_donation_logo.png" alt="Donate £60 to support Status Row" />
-      <p>A donation of £60 is enough to equip one of our crew with an essential life jacket.</p>
-      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
-        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
-        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
-        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="60" />
-        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Enter your name & message in the description" />
-        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="we'd love to add you to our support-oars wall! Add the name and message you want to appear in the description field below." />
-        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
-        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
-        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
-        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
-        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row £60 Donation" />
-        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
-        <input type="hidden" class="form-control" id="CompanyLogoPath" name="CompanyLogoPath" placeholder="" value="http://www.statusrow.com/assets/images/logo_title_large.png" />
-        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
-        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
-        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
-        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
-        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.svg" width="250" alt="shieldpay" align="middle" /></button>
-      </form>
-    </div>
-
-    <div class="Support__Logo">
-      <img src="{{ site.baseurl }}/assets/images/support/30_donation_logo.png" alt="Donate £30 to support Status Row" />
-      <p>A donation of £30 will provide us with enough food for one crew member for a day. (When you're burning 8,000 kcal/day you need a lot of food!)</p>
-      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
-        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
-        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
-        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="30" />
-        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Enter your name & message in the description" />
-        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="We'd love to add you to our support-oars wall! Add the name and message you want to appear in the description field below." />
-        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
-        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
-        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
-        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
-        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row £30 Donation" />
-        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
-        <input type="hidden" class="form-control" id="CompanyLogoPath" name="CompanyLogoPath" placeholder="" value="http://www.statusrow.com/assets/images/logo_title_large.png" />
-        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="No" />
-        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
-        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
-        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
-        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.svg" width="250" alt="shieldpay" align="middle" /></button>
-      </form>
-    </div>
-
-    <div class="Support__Logo">
-      <h3>General Donatations</h3>
-      <p>Use this button to donate any amount in support of the team</p>
-      <form action="https://www.shieldpay.com/SinglePayment/SinglePaymentsRequest" method="post" enctype="multipart/form-data" role="form">
-        <input type="hidden" class="form-control" id="FromEmail" name="FromEmail" placeholder="" value="directpay@shieldpay.com" />
-        <input type="hidden" class="form-control" id="ToEmail" name="ToEmail" placeholder="" value="hello@statusrow.com" />
-        <input type="hidden" class="form-control" id="Amount" name="Amount" placeholder="" value="0" />
-        <input type="hidden" class="form-control" id="InvoiceNo" name="InvoiceNo" placeholder="" value="Enter your name & message in the description" />
-        <input type="hidden" class="form-control" id="PageTitle" name="PageTitle" placeholder="" value="We'd love to add you to our support-oars wall! Add the name and message you want to appear in the description field below." />
-        <input type="hidden" class="form-control" id="CurrencyCode" name="CurrencyCode" placeholder="" value="GBP" />
-        <input type="hidden" class="form-control" id="RequestFrom" name="RequestFrom" placeholder="" value="statusrowlive.html" />
-        <input type="hidden" class="form-control" id="LANGUAGE" name="LANGUAGE" placeholder="" value="en_US" />
-        <input type="hidden" class="form-control" id="ACCEPTURL" name="ACCEPTURL" placeholder="" value="http://www.statusrow.com/thankyou" />
-        <input type="hidden" class="form-control" id="DECLINEURL" name="DECLINEURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="EXCEPTIONURL" name="EXCEPTIONURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="CANCELURL" name="CANCELURL" placeholder="" value="http://www.statusrow.com/sorry" />
-        <input type="hidden" class="form-control" id="CN" name="CN" placeholder="" value="Status Row Donation" />
-        <input type="hidden" class="form-control" id="EMAIL" name="EMAIL" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERZIP" name="OWNERZIP" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERADDRESS" name="OWNERADDRESS" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERCTY" name="OWNERCTY" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERTOWN" name="OWNERTOWN" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="OWNERTELNO" name="OWNERTELNO" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="HideSPLogo" name="HideSPLogo" placeholder="" value="Yes" />
-        <input type="hidden" class="form-control" id="CompanyLogoPath" name="CompanyLogoPath" placeholder="" value="http://www.statusrow.com/assets/images/logo_title_large.png" />
-        <input type="hidden" class="form-control" id="AmountEditable" name="AmountEditable" placeholder="" value="Yes" />
-        <input type="hidden" class="form-control" id="FeeReceiverEmail" name="FeeReceiverEmail" placeholder="" value="" />
-        <input type="hidden" class="form-control" id="FeeReceiverAmount" name="FeeReceiverAmount" placeholder="" value="0" />
-        <input type="hidden" class="form-control" id="PaymentMethod" name="PaymentMethod" placeholder="" value="BOTH" />
-        <input id="CREDITDEBIT" type="hidden" name="CREDITDEBIT" value="D" />
-        <button type="submit" style="border:none;background-color:#fff; cursor:pointer;"><img src="{{ site.baseurl }}/assets/images/support/donate_with_shield_pay.svg" width="250" alt="shieldpay" align="middle" /></button>
-      </form>
-    </div>
-  </div>
-
-
-
-
-  <div class="Support__SupportOars">
-    <h2 class="SupportOarGrid__header">Support-oars</h2>
-
-    <div class="Support__SupportOarGrid">
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Natacha</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--26">
-            <script>
-              var time = moment('2018-02-18').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--26').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">I bet it is not chocolate but hope it keeps you going! x</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Claire</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--25">
-            <script>
-              var time = moment('2018-02-13').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--25').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">(the one looking after Suze in Pucon on the night this all started!!)</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Claire</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--24">
-            <script>
-              var time = moment('2018-02-12').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--24').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Ray & Sally</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--23">
-            <script>
-              var time = moment('2018-02-12').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--23').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Seb</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--22">
-            <script>
-              var time = moment('2018-02-11').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--22').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Sophie</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--21">
-            <script>
-              var time = moment('2018-02-11').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--21').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Nick & Brid</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--20">
-            <script>
-              var time = moment('2018-02-04').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--20').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Jennifer</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--17">
-            <script>
-              var time = moment('2018-01-29').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--17').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Chris</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--16">
-            <script>
-              var time = moment('2018-01-28').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--16').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Sue & Dave</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--15">
-            <script>
-              var time = moment('2018-01-21').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--15').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">Good for you - a worthy cause! Wishing you all the very best of luck. Love Auntie Sue & Uncle Dave</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Annabel</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--14">
-            <script>
-              var time = moment('2018-01-19').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--14').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">Plastic is a cancer in our environment and nature. Let's wipe it out! Brave girls! Xx</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Geoff</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--13">
-            <script>
-              var time = moment('2018-01-16').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--13').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Wendy</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--12">
-            <script>
-              var time = moment('2017-12-14').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--12').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Gemma & Peter</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--11">
-            <script>
-              var time = moment('2017-12-06').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--11').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">Best of luck and stay oarsome!</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Mercedes</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--10">
-            <script>
-              var time = moment('2017-12-05').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--10').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">Good luck ladies! With best wishes, Mercedes</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Jackie</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--09">
-            <script>
-              var time = moment('2017-11-23').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--09').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Amanda</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--08">
-            <script>
-              var time = moment('2017-11-17').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--08').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">Great cause. Good Luck. Amanda.</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Steven</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--07">
-            <script>
-              var time = moment('2017-11-10').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--07').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">Just f**king do it!</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Lynne</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--06">
-            <script>
-              var time = moment('2017-11-02').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--06').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Elliott</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--05">
-            <script>
-              var time = moment('2017-10-31').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--05').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Tom</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--04">
-            <script>
-              var time = moment('2017-10-27').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--04').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">You are insane. Good luck.</p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Mamun</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--03">
-            <script>
-              var time = moment('2017-10-16').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--03').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Diana & Keith </p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--19">
-            <script>
-              var time = moment('2017-10-25').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--19').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Linda</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--18">
-            <script>
-              var time = moment('2017-10-10').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--18').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Stephanie</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--02">
-            <script>
-              var time = moment('2017-10-10').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--02').innerHTML = time;
-            </script>
-          </p>
-        </div>
-      </div>
-
-      <div class="SupportOar__tile">
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_name">Jeannine</p>
-          <p class="SupportOar__tile_when" id="SupportOar__tile--01">
-            <script>
-              var time = moment('2017-10-08').startOf('day').fromNow();
-              document.getElementById('SupportOar__tile--01').innerHTML = time;
-            </script>
-          </p>
-        </div>
-        <div class="SupportOar__tile_headine">
-          <p class="SupportOar__tile_message">What a fantastic idea. Good luck.</p>
-        </div>
-      </div>
-
     </div>
   </div>
 </div>
 
+<script>
+  function revealStory() {
+    var content = document.getElementById('revealStory');
+    var reveal = document.getElementById('reveal');
 
-<section class="Quotes">
-  <div class="container">
-    <h2>Some things our wonderful support-oars have said</h2>
-    <p class="text-center">To get your message on the wall <a href="https://twitter.com/StatusRow">Tweet us</a> or tag @StatusRow in your Instagram and Facebook posts.</p>
-      <div class="Quotes__list">
-        <div class="Quotes__card">
-          <p>"Wow, great work ladies. What an inspiration! Off to tell my daughters all about you #rolemodels #rowing #plasticfree" - @vitorinadw</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Wow" - Davina McCall <br/><a href="https://twitter.com/ThisisDavina/status/947930075864936449" target="_blank">@ThisisDavina</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Thank you @StatusRow for visiting us to chat about your Atlantic Challenge! We look forward to seeing you row past #Southend later this year! #CleanSeas #plasticfree #twac2018" - <a href="https://twitter.com/RadioEssex/status/954306945271451648" target="_blank">@RadioEssex</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Every time I see a Status Row post I just think what you're doing is bloody amazing. You ladies absolutely rock!"</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"I respect so much what you're trying to do! Wish you the best of luck and you will hopefully bring awareness to this horrible issue" - <a href="https://twitter.com/bridges2italy/status/958209162600525825" target="_blank">@bridges2italy</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Good luck girls. Several friends of mine have completed the crossing including Pete Lowe & James Cracknell. It’s a huge life achievement. Something I wish I’d done." - <a href="https://twitter.com/AklDesignChamp/status/957182536915894272" target="_blank">@AklDesignChamp</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Huge shoutout to @StatusRow for making the world a better place one piece of plastic at a time!! It’s a comparing run by three women who will be rowing across the Atlantic to challenge the worldwide use of plastics! Check them out! #plasticfree #zerowaste #pickwaste" - <a href="https://twitter.com/Pickwaste_/status/954410092023066626" target="_blank">@Pickwaste_</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"When we all come together to solve the world’s litter problem, we make the biggest difference of all. Thanks to @OurOcean & @StatusRow for helping & create a #Plastic #PlasticWaste Free World 🌍 #WorldWithoutWaste!" - <a href="https://twitter.com/ramniranjan187/status/956971518751227904" target="_blank">@ramniranjan187</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Proud to support @StatusRow's fundraising efforts with #ShieldpayGiving! You can support the team at: https://hubs.ly/H09M8cD0  Good luck to the girls on their epic efforts to row the Atlantic for charity! #CleanSeas #plasticfree #twac2018" - <a href="https://twitter.com/shield_pay/status/956532589598257153" target="_blank">@shield_pay</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Keep up the gr8 work!  Appreciate your passion for a worthy cause!  Thank you for setting an excellent example!" - <a href="https://twitter.com/mMicksquared/status/962328080156065792" target="_blank">@mMicksquared</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Go! Or, rather: Row! Thank you for your efforts." - <a href="https://twitter.com/TheOceanTree/status/953266324494483456" target="_blank">@TheOceanTree</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"A pleasure to meet you and support your great cause" - <a href="https://twitter.com/LenstecOptical" target="_blank">@LenstecOptical</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Good luck @StatusRow. We are behind you. @shield_pay giving is on the cards!" - <a href="https://twitter.com/GeoffDunnett/status/953258342213935104" target="_blank">@GeoffDunnett</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"WOW you have my attention & support you brave ladies. #prevention #plasticpollution #climateaction" - <a href="https://twitter.com/SharKirkpatrick/status/953200629324894208" target="_blank">@SharKirkpatrick</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Good luck ladies! My cousin’s husband rowed Atlantic twice (many more attempts!) so I know it’s no picnic. Dig deep! " - <a href="https://twitter.com/erebusenv/status/952468039739564032" target="_blank">@erebusenv</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Starting out my “cut out plastic” campaign. Small steps so purchased a SodaStream today. No more plastic bottles of sparkling water - #reuse #recycle." - <a href="https://twitter.com/EilsMG/status/948559290331287552" target="_blank">@EilsMG</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Nothing is impossible if you have the inclination, passion, determination, support and enough money! Good Luck Ladies" - <a href="https://twitter.com/Kagsema/status/947961260888469504" target="_blank">@Kagsema</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Epic! Amaaaazing inspiration!" - Kat Ford</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"@StatusRow you are so right it is always easy to find two mins to pick up litter ♥" - @MsGrateful27</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"You're representing Women, you're Ambassadors for Women. Good luck in All you do, we Appreciate you" - <a href="https://twitter.com/GaongalelwePhe1/status/947930210846105600" target="_blank">@GaongalelwePhe1</a></p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Wow Jessica, what an amazing mission you three are undertaking! wish you success & will be praying that you all keep safe!!" - Jose Weatherhead</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"So in awe and incredible proud of my niece. Jessica Rego you truly never do anything half way. Your family is with you and behind you 110%. You make us and Bermuda proud. Love you!!" - Jane Simmons</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"You've inspired me this week as I'm no longer getting a plastic lid on my flasks in the morning, and I'm trying to get everyone at work to use the metal cutlery instead of the plastic stuff."</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Wow! Caroline Wilson my utterly amazing youngest step daughter - your passion is overwhelming. Every single one of your friends and family will be there with you - on every pull of those oars. Love you to the moon and back X" - Sallie Wilson</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"@StatusRow I didn't know you existed until a few minutes ago! You're absolutely amazing #plasticpollution #plasticwaste I will be watching" - @wakeupwellbeing</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"You inspired me to get a good reusable drink bottle" - @BridOConnell</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"I bought plastic-free cotton buds this week!"</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"amazing thing you're doing... Will be watching closely" - @CEVokins</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Wow - what a challenge to take on for this important cause @StatusRow. Please read, share and support if you can everybody. #plastic #rowing" - @ElliottSportPsy</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"You've inspired me too! I've been resuing this bottle for about a month!"</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"I want to leave this world better than I found it" Awesome women rowing Atlantic for good of our world @StatusRow" - @HopeintheHearts</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Amazing, epic project. Incredibly envious" - @KateDobinson</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Wow! You go! What a fantastic mission. The best of luck to you" - @hennessypriest</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Amazing! we’re 100% behind you @StatusRow" - @BudeCleanerSeas</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"We support you Ladies, and the awareness you will bring ...!!!" - @nationsurf</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"What an amazing adventure you are taking on and for such a good cause. Impressive." - @demisthedash</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Bloody good luck with ur trip, ur gonna smash it! X" - Amber Harrison</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Your mission is fabulous."</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"I really admire what you are doing, it's an incredible challenge, keep up the good work!" - @trashplasticnow</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Anyone wanting to row the Atlantic gets my vote! #gutsanddetermination" - @TrevorDiggers</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Wishing @StatusRow all the best in the @TaliskerRace 2018! Always great to see fearless women taking on the elements for the cause of #Conservation! #Atlantic #oceanrowing #soundslikehardwork" - @SailBritainCP</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Hello you beautiful people..... You have my support 100%. #endsingleuseplastics #citytosea #nataliefee #removeoceanplastic #marineconservation" - @TrevorDiggers</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Good luck @StatusRow we’re behind you!" - @weareinprogress</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Can't wait to follow your escapades! Everyone at @surfsenioritas is rooting for you!" - @surfsenioritas</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"You're awesome" - @cmwg_ato</p>
-        </div>
-        <div class="Quotes__card">
-          <p>"Your plastic posts have inspired me! I’ve cut our household use down a fair bit!"</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    content.classList.remove('suppress');
+    reveal.classList.add('suppress');
+  }
+  function revealSupportoar() {
+    var content = document.getElementById('revealSupportoar');
+    var reveal = document.getElementById('reveal2');
+
+    content.classList.remove('suppress');
+    reveal.classList.add('suppress');
+  }
+  function revealMessages() {
+    var content = document.getElementById('revealMessages');
+    var reveal = document.getElementById('reveal3');
+
+    content.classList.remove('suppress');
+    reveal.classList.add('suppress');
+  }
+
+  function showStory() {
+    var story = document.getElementById('story');
+    var supportoars = document.getElementById('supportoars');
+    var messages = document.getElementById('messages');
+
+    story.classList.remove('suppress');
+    supportoars.classList.add('suppress');
+    messages.classList.add('suppress');
+
+    var menuStory = document.getElementById('menuStory');
+    var menuSupportoar = document.getElementById('menuSupportoar');
+    var menuMessages = document.getElementById('menuMessages');
+
+    menuStory.classList.add('active');
+    menuSupportoar.classList.remove('active');
+    menuMessages.classList.remove('active');
+  }
+
+  function showSupportoars() {
+    var story = document.getElementById('story');
+    var supportoars = document.getElementById('supportoars');
+    var messages = document.getElementById('messages');
+
+    story.classList.add('suppress');
+    supportoars.classList.remove('suppress');
+    messages.classList.add('suppress');
+
+    var menuStory = document.getElementById('menuStory');
+    var menuSupportoar = document.getElementById('menuSupportoar');
+    var menuMessages = document.getElementById('menuMessages');
+
+    menuStory.classList.remove('active');
+    menuSupportoar.classList.add('active');
+    menuMessages.classList.remove('active');
+  }
+
+  function showMessages() {
+    var story = document.getElementById('story');
+    var supportoars = document.getElementById('supportoars');
+    var messages = document.getElementById('messages');
+
+    story.classList.add('suppress');
+    supportoars.classList.add('suppress');
+    messages.classList.remove('suppress');
+
+    var menuStory = document.getElementById('menuStory');
+    var menuSupportoar = document.getElementById('menuSupportoar');
+    var menuMessages = document.getElementById('menuMessages');
+
+    menuStory.classList.remove('active');
+    menuSupportoar.classList.remove('active');
+    menuMessages.classList.add('active');
+  }
+
+</script>
