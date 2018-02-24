@@ -22,14 +22,16 @@ header nav.navbar.navbar-default .navbar-header a img{
   max-width: 200px;
 }
 .navbar-default .navbar-nav>li>a.btn {
-  color: var(--yellow);
+  color: var(--white);
 }
 .navbar-default .navbar-nav>li>a.btn:active,
 .navbar-default .navbar-nav>li>a.btn:focus,
 .navbar-default .navbar-nav>li>a.btn:hover {
   color: var(--blue--dark);
-  border: 1px solid var(--blue--dark);
-  background-color: var(--yellow);
+}
+.navbar-default .navbar-nav>li,
+.navbar-default .navbar-nav>li>a.btn {
+  font-size: 12px;
 }
 @media only screen and (min-width: 768px) and (max-width: 813px) {
   header nav.navbar.navbar-default .navbar-header a img {
@@ -194,7 +196,7 @@ ul.Social-icons > li {
    background-color: var(--blue--shadow);
    padding: 30px 0;
  }
- 
+
 /* Blog - home */
 .Post__Grid.row {
   display: flex;

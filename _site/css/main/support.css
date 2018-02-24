@@ -64,19 +64,16 @@
 .SupportHero__Social {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 2rem 0;
+  max-height: 40px;
 }
 .SupportHero__Social--button {
   display: flex;
   align-items: center;
   height: 40px;
   align-self: center;
-}
-.SupportHero__Social--button p {
-  margin-bottom: 0;
-  color: white;
-  font-size: 14px;
-  text-transform: uppercase;
+  padding: 0;
 }
 .SupportHero__Social--icon {
   margin: 1.5rem 3rem 1rem 0;
