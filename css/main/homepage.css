@@ -42,7 +42,8 @@
   }
   .HomeHero {
     background: linear-gradient(to right top, rgba(0, 51, 119, 0.8), rgba(100, 235, 255, 0.36)),  url(../../assets/images/team_status_row_bw.png) no-repeat;
-    background-position: top left;
+    background-position-x: left;
+    background-position-y: 40%;
     background-size: cover;
   }
   .HomeHero--subheader {
@@ -189,6 +190,7 @@
     }
     .HomeCause__Count {
       width: 50%;
+      padding-right: 50px;
     }
     .HomeCause__Content {
       width: 50%;
