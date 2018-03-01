@@ -246,6 +246,9 @@ ul.Social-icons > li {
   padding: 20px;
   width: 300px;
   margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .Press__article__header {
   height: 80px;
@@ -254,8 +257,14 @@ ul.Social-icons > li {
   max-width: 100%;
   max-height: 60px;
 }
+.Press__article__footer {
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 .Press__article .btn {
-  width: 90%;
+  width: 100%;
   align-self: flex-end;
 }
 
