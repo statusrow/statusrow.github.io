@@ -6,6 +6,8 @@
 }
 :root {
   --white: #fff;
+  --grey--light: #F7F7F7;
+  --grey--medium: #EDEDED;
   --yellow: #EDE554;
   --blue--dark: #344359;
   --blue--primary: #40BDD9;
@@ -79,7 +81,7 @@ a:active {
 .btn {
   text-transform: uppercase;
   white-space: pre-wrap;
-  border-radius: 6px;
+  border-radius: 100px;
   min-width: 147px;
 }
 a.btn {
@@ -106,6 +108,18 @@ a.btn {
 .btn-secondary:focus,
 .btn-secondary:active {
   background-color: var(--white);
+  border: 1px solid var(--blue--dark);
+  color: var(--blue--dark);
+}
+.btn-clear {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--blue--dark);
+}
+.btn-clear:hover,
+.btn-clear:focus,
+.btn-clear:active {
+  background-color: #EEE;
   border: 1px solid var(--blue--dark);
   color: var(--blue--dark);
 }

@@ -90,57 +90,6 @@ ul.Social-icons > li {
   margin: 25px;
 }
 
-
-/* Homepage - Hero */
-.Homepage .Homepage__Hero {
-  background: url(../../assets/images/status_rowing-5.png) no-repeat center bottom;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-}
-.Homepage .Homepage__Hero--headline h1 {
-  margin: 40px auto;
-}
-.Homepage .Homepage__Hero--headline h2 {
-  font-family: var(--font--body);
-  text-transform: none;
-  margin-bottom: 30px;
-}
-.Homepage .Homepage__Hero--subheader {
-  font-weight: bold;
-}
-.Homepage .Homepage__Hero--cta {
-  margin: 20px auto;
-  text-align: center;
-}
-.Homepage .Homepage__Hero--countdown_container {
-  display: inline-block;
-}
-
-@media only screen and (min-width: 768px) {
-  .Homepage .Homepage__Hero {
-    padding-bottom: 60px;
-  }
-
-}
-/* Countdown Timer */
-.Countdown {
-  text-align: center;
-  background-color: var(--yellow);
-  padding: 0 15px;
-}
-
-/* Homepage - Content */
-.Homepage .Homepage__Content {
-  padding: 30px 0;
-}
-.Homepage .Homepage__Content h3 {
-  margin-top: 0;
-}
-.Homepage .Homepage__Content img {
-  margin: 20px auto;
-}
-
 #Hero__Challenge {
   background: url(../../assets/images/beach_rubbish.jpg) no-repeat center;
   background-size: cover;
@@ -158,7 +107,6 @@ ul.Social-icons > li {
   background: url(../../assets/images/team_status_row_bw.png);
   background-size: cover;
   background-position: 70%;
-  background-attachment: fixed;
   min-height: 60vh;
   display: flex;
   align-items: center;

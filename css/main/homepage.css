@@ -1,0 +1,247 @@
+/* ---- HomeHero ---- */
+.HomeHero {
+  background: linear-gradient(to right top, rgba(0, 51, 119, 0.8), rgba(100, 235, 255, 0.36)),  url(../../assets/images/team_status_row_bw.png) no-repeat;
+  background-position-x: 70%;
+  background-size: cover;
+  min-height: 75vh;
+  position: relative;
+}
+.HomeHero--headline > h1,
+.HomeHero--headline > h2,
+.HomeHero--subheader > p {
+  color: white;
+}
+.HomeHero .container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px 20px;
+}
+.HomeHero h1 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.HomeHero h2 {
+  font-size: 60px;
+  line-height: 1;
+  margin: 20px 0;
+}
+.HomeHero--subheader {
+  max-width: 430px;
+}
+
+@media only screen and (min-width: 768px) {
+  .HomeHero h2 {
+    margin-top: 0;
+    font-size: 90px;
+  }
+  .HomeHero .container {
+    padding: 100px 0;
+  }
+  .HomeHero {
+    background: linear-gradient(to right top, rgba(0, 51, 119, 0.8), rgba(100, 235, 255, 0.36)),  url(../../assets/images/team_status_row_bw.png) no-repeat;
+    background-position: top left;
+    background-size: cover;
+  }
+  .HomeHero--subheader {
+    padding-bottom: 60px;
+  }
+
+}
+
+/* ---- Countdown ---- */
+
+.Countdown {
+  text-align: center;
+  background-color: var(--yellow);
+  padding: 0 15px;
+}
+
+.Countdown > h2,
+.Countdown > p {
+  color: var(--blue--dark);
+}
+
+.Countdown > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .Countdown > .container {
+    flex-wrap: nowrap;
+  }
+}
+
+/* ---- HomeChallenge ---- */
+
+.HomeChallenge {
+  background: url(../../assets/images/canaries_antigua.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 85vh;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.HomeChallenge .container {
+  padding: 30px;
+}
+.HomeChallenge__Container h3 {
+  font-size: 26px;
+  margin-top: 0;
+  position: relative;
+}
+.HomeChallenge__Container h3:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin-top: 1.5rem;
+  background: var(--blue--dark)
+}
+
+.HomeChallenge__Container p:first-of-type {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.HomeChallenge__Container:last-child {
+  float: right;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .HomeChallenge__Container h3 {
+    font-size: 40px;
+  }
+  .HomeChallenge .container {
+    padding: 0;
+  }
+  .HomeChallenge__Container {
+    width: 50%;
+  }
+}
+
+/* ---- HomeHero ---- */
+.HomeCause {
+  background: linear-gradient(to right top, rgba(0, 51, 119, 0.8), rgba(100, 235, 255, 0.36)), url(../../assets/images/bottle.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 85vh;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.HomeCause h2,
+.HomeCause h3,
+.HomeCause p {
+  color: var(--white);
+}
+.HomeCause a {
+  color: var(--blue--dark);
+}
+.HomeCause a:hover {
+  color: var(--blue--primary);
+}
+.HomeCause .credit {
+  text-align: left;
+  margin-top: 20px;
+}
+.HomeCause .container {
+  padding: 30px;
+}
+.HomeCause__Container {
+  display: flex;
+  flex-direction: column;
+}
+.HomeCause h3 {
+  font-size: 26px;
+  margin-top: 0;
+  position: relative;
+}
+.HomeCause h3:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin-top: 1.5rem;
+  background: var(--white)
+}
+.HomeCause__Count {
+  min-height: 200px;
+}
+.HomeCause__Count h2 {
+  font-size: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .HomeCause h3 {
+      font-size: 40px;
+    }
+    .HomeCause__Container {
+      flex-direction: row;
+    }
+    .HomeCause__Count h2 {
+      font-size: 90px;
+    }
+    .HomeCause__Count {
+      width: 50%;
+    }
+    .HomeCause__Content {
+      width: 50%;
+      margin-top: 40px;
+    }
+}
+
+/* ---- HomeCrew ---- */
+.HomeCrew .container {
+  padding: 30px;
+}
+.HomeCrew__Content {
+  margin-bottom: 30px;
+}
+.HomeCrew h3 {
+  font-size: 26px;
+  margin-top: 0;
+  position: relative;
+}
+.HomeCrew h3:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin-top: 1.5rem;
+  background: var(--blue--dark)
+}
+.HomeCrew__Content p:first-of-type {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .HomeCrew h3 {
+    font-size: 40px;
+  }
+  .HomeCrew {
+    height: 85vh;
+    display: flex;
+    align-content: center;
+  }
+  .HomeCrew .container {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .HomeCrew__Content {
+    max-width: 50%;
+  }
+  .HomeCrew__image img {
+    width: 310px;
+  }
+}
+
+.Home .instagram-feed {
+  background-color: var(--grey--light);
+}
