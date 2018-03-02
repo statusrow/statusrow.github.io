@@ -1,0 +1,60 @@
+---
+layout: page
+title: Caroline Wilson
+description: Meet Caroline Wilson.
+permalink: /caroline-wilson/
+---
+
+    <!-- Slider Start -->
+<section class="Hero__Global">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>Caroline Wilson</h1>
+      </div>
+      <div class="col-md-5">
+        <div class="avater-container">
+          <img src="{{ site.baseurl }}/assets/images/team/caroline.jpg" alt="Jess from team Status Row" class="Image--circle"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row">
+  <div class="col-xs-12">
+    <p class="credit">Image courtesy of Rannoch Adventure</p>
+  </div>
+</div>
+<!-- Content Start -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p>Caroline is known for her love of sleeping for 10 hours at a time (an ideal skill for a crew that will be rowing 24 hours a day). When she's not sleeping, you'll find her running, cycling, climbing or hiking across some form of land mass. A big believer in preserving this Earth and all its wonders, and that together, as a community, we can make a difference.</p>
+      <blockquote>"I don’t know what a 30ft wave looks like. I guess the only logical thing to do is row an ocean to find out."</blockquote>
+      <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/2017/09/15/why-row-atlantic-caroline.html">Here's why I'm rowing the Atlantic</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Caroline Updates</h2>
+      {% for post in site.posts %}
+        {% if post.author == "Caroline Wilson" %}
+          <div class="col-xs-12 col-sm-6">
+            <div class="Post__Grid--card">
+              <a href="{{ post.url | prepend: site.baseurl }}" class="bold"><h3>{{ post.title }}</h3></a>
+              <p>{{ post.subtitle }}</p>
+              <p class="post-date">{{ post.date | date_to_long_string }}</p>
+              <p>
+                {{ post.content | strip_html | truncatewords: 50 }}
+              </p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-secondary">Read more</a>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+</div>

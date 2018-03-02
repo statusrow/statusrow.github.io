@@ -1,0 +1,60 @@
+---
+layout: page
+title: Susan Ronaldson
+description: Meet Susan Ronaldson.
+permalink: /susan-ronaldson/
+---
+
+    <!-- Slider Start -->
+<section class="Hero__Global">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>Susan Ronaldson</h1>
+      </div>
+      <div class="col-md-5">
+        <div class="avater-container">
+          <img src="{{ site.baseurl }}/assets/images/team/suze.jpg" alt="Jess from team Status Row" class="Image--circle"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row">
+  <div class="col-xs-12">
+    <p class="credit">Image courtesy of Rannoch Adventure</p>
+  </div>
+</div>
+<!-- Content Start -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p>Always one for a good argument, Suze realised too late the Atlantic Rowing Challenge wasn’t a debating competition on the Queen Mary. Nevertheless, she loves a challenge; as long as it doesn’t involve exercise, confined spaces and the use of a bucket. Brought up in a nautical family, she feels drawn to the sea and passionately believes in preserving our beautiful blue planet.</p>
+      <blockquote>"Unless someone like you cares an awful lot, nothing is going to get better, it’s not" - Dr Suess</blockquote>
+      <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/2017/09/22/why-row-atlantic-suze.html">Here's why I'm rowing the Atlantic</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Susan Updates</h2>
+      {% for post in site.posts %}
+        {% if post.author == "Susan Ronaldson" %}
+          <div class="col-xs-12 col-sm-6">
+            <div class="Post__Grid--card">
+              <a href="{{ post.url | prepend: site.baseurl }}" class="bold"><h3>{{ post.title }}</h3></a>
+              <p>{{ post.subtitle }}</p>
+              <p class="post-date">{{ post.date | date_to_long_string }}</p>
+              <p>
+                {{ post.content | strip_html | truncatewords: 50 }}
+              </p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-secondary">Read more</a>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+</div>
