@@ -35,25 +35,26 @@ permalink: /jess-rego/
       <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/2017/09/08/why-rowing-atlantic-jess.html">Here's why I'm rowing the Atlantic</a>
     </div>
   </div>
-  
+
+  <br />
   <div class="row">
     <div class="col-xs-12">
-      <h2>Jess Updates</h2>
-      {% for post in site.posts %}
-        {% if post.author == "Jess Rego" %}
-          <div class="col-xs-12 col-sm-6">
-            <div class="Post__Grid--card">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="bold"><h3>{{ post.title }}</h3></a>
-              <p>{{ post.subtitle }}</p>
-              <p class="post-date">{{ post.date | date_to_long_string }}</p>
-              <p>
-                {{ post.content | strip_html | truncatewords: 50 }}
-              </p>
-              <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-secondary">Read more</a>
-            </div>
-          </div>
-          {% endif %}
-        {% endfor %}
+      <h2>Updates from Jess</h2>
+        <div class="Post__Grid">
+        {% for post in site.posts %}
+          {% if post.author == "Jess Rego" %}
+              <div class="Post__Grid--card">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="bold"><h3>{{ post.title }}</h3></a>
+                <p>{{ post.subtitle }}</p>
+                <p class="post-date">{{ post.date | date_to_string }}</p>
+                <p>
+                  {{ post.content | strip_html | truncatewords: 20 }}
+                </p>
+                <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-secondary btn-lg">Read more</a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
     </div>
   </div>
 </div>
