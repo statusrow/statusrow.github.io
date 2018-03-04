@@ -10,7 +10,7 @@ author: Jess Rego
 [twitter]: https://twitter.com/StatusRow
 [lilly]: https://www.facebook.com/lillysplasticpickup/
 [lillyvid]: https://www.youtube.com/watch?v=xSTD6vxBcXQ&t=158s
-[andy]: http://www.acbcoaching.com/
+[andy]: http://www.statusrow.com/2018/03/01/meeting-andy-bruce.html
 [izzy]: https://twitter.com/izzyann16
 [press]: http://www.statusrow.com/press/
 [support]: http://www.statusrow.com/support/
@@ -54,9 +54,10 @@ Seriously, where did February go? It seemed we had just settled into 2018 and su
 ## Training
 * Jess overdid it on the rower and managed to royally screw up her back and spent a few weeks recovering with the help of some talented Osteopaths and Physiotherapists.
 * Caroline got the flu and had to be wrestled away from her rower to recover.
-* All three of us passed our short wave radio certificate exam with flying colours and we now feel confident that if we run into any trouble we can safely call a mayday. Also learned how to call other boats to arrange meeting locations for G&Ts.
+* Jess & Caroline sat their short wave radio certification exam, so now all three of us passed with flying colours and we now feel confident that if we run into any trouble we can safely call a mayday. Also learned how to call other boats to arrange meeting locations for G&Ts.
 * Caroline & Jess passed their First Aid course - although the teacher did advise Caroline may need to work on her squeamishness if she ever needs to deal with a bloody situation! (Susan is doing her course in Essex and will be updating her progress later this month)
 * We met [Andy Bruce][andy], a sports trainer and sports psychologist who gave us loads of helpful advice about training for the race, approaching sponsors and dealing with the mental strain of it all.
+* Susan hit 2 hours on the rower! "It felt great- I was proud! But scary... can’t imagine doing that 6 times a day!!"
 * While Jess went back to basics on the rower Caroline powered ahead and hit the elusive 2 hours and 10-minute mark!
 
 <div class="Blog__Post--image_3-col row">
@@ -67,7 +68,7 @@ Seriously, where did February go? It seemed we had just settled into 2018 and su
   </div>
   <div class="col-xs-12 col-sm-4">
     <figure>
-      <img class="Blog__Post--image" alt="Susan MAYDAY-ing her way to her short wave radio certificate" src="/assets/images/blogs/feb_roundup/suze_radio_certificate.jpg" />
+      <img class="Blog__Post--image" alt="Caroline MAYDAY-ing her way to her short wave radio certificate" src="/assets/images/blogs/feb_roundup/radio_exam.JPG" />
   </figure>
   </div>
   <div class="col-xs-12 col-sm-4">
