@@ -142,7 +142,12 @@
   color: grey;
   text-transform: uppercase;
 }
-
+.SupportContent__Menu > div {
+  cursor: pointer;
+}
+.SupportContent__Menu > div:hover {
+  color: var(--blue--dark);
+}
 .SupportContent__Menu .active {
   color: var(--blue--primary);
 }
