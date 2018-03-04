@@ -17,6 +17,7 @@ author: Jess Rego
 [feedback]: http://www.statusrow.com/2018/03/03/taking-off.html
 [wonderbly]: https://www.wonderbly.com/
 [canowater]: https://www.canowater.com/
+[pipandnut]: https://www.pipandnut.com/
 
 Seriously, where did February go? It seemed we had just settled into 2018 and suddenly it was March! The team have been heavy into press and outreach this month and have had some exciting things come out of that. Here’s the February round up in case you missed anything.
 
@@ -51,6 +52,7 @@ Seriously, where did February go? It seemed we had just settled into 2018 and su
 
 
 ## Fundraising
+* [Pip and Nut][pipandnut] have kindly offered to help fuel us across the Atlantic with some of their delicious nut butters!
 * Redesign of the [fundraising page][support]! Following lots of [great feedback][feedback] from you guys, we decided to add some more information to our support page as well as a gauge so you can see where we are in our financial goals and celebrate milestones with us.
 
 ## Training
