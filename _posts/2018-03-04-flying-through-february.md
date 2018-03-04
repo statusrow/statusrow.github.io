@@ -18,6 +18,7 @@ author: Jess Rego
 [wonderbly]: https://www.wonderbly.com/
 [canowater]: https://www.canowater.com/
 [pipandnut]: https://www.pipandnut.com/
+[alex]: https://masonalexandra.com/author/masonalexandra/
 
 Seriously, where did February go? It seemed we had just settled into 2018 and suddenly it was March! The team have been heavy into press and outreach this month and have had some exciting things come out of that. Here’s the February round up in case you missed anything.
 
@@ -87,9 +88,11 @@ Seriously, where did February go? It seemed we had just settled into 2018 and su
 * It’s been a press-heavy month with [Status Row mentioned][press] in the University of Hertfordshire news, Watford London UK, ISS Waste Week, Outdoors Radar, Essex TV and Bernews! So excited to be sharing our story so far and wide.
 
 ## Coming up
-* We started working on organising a screening of A Plastic Ocean for two dates in May. We'll let you all know about tickets soon so make sure you’re following us on [Facebook][facebook] and [Twitter][twitter] so you don’t miss any information.
+* We're planning another speaking event, this time alongside the inspirational [Alex Mason][alex] at the Canvas Cafe. Planned for the end of April- we'll confirm the date and where you can buy tickets soon.
+* We started working on organising a screening of A Plastic Ocean for two dates in May and will be announcing dates & where you can get your ticket shortly.
 * We'll be getting wet in the pool during our Sea Survival training with First Class Sailing next weekend.
 * Caroline will be giving another talk about our mission at [Wonerdbly][wonderbly].
+* Make sure you’re following us on [Facebook][facebook] and [Twitter][twitter] as we'll be announcing details of all events here.
 
 
 Many thanks to everyone who has [supported us][support] this month and make sure to keep those questions and messages pouring in!
