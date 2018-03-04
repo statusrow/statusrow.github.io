@@ -16,6 +16,7 @@ author: Jess Rego
 [support]: http://www.statusrow.com/support/
 [feedback]: http://www.statusrow.com/2018/03/03/taking-off.html
 [wonderbly]: https://www.wonderbly.com/
+[canowater]: https://www.canowater.com/
 
 Seriously, where did February go? It seemed we had just settled into 2018 and suddenly it was March! The team have been heavy into press and outreach this month and have had some exciting things come out of that. Here’s the February round up in case you missed anything.
 
@@ -28,6 +29,7 @@ Seriously, where did February go? It seemed we had just settled into 2018 and su
 * We committed to giving up plastic for Lent.
 * Caroline brought the world’s largest planning calendar and made us all get organised about our upcoming events (we’ve got lots to share with you shortly!)
 * Lilly (of [Lillys Plastic Pickup][lilly]) fame had sent us some questions so we put together a video response for her which you can see [here][lillyvid]. Lily is only 9 but is already making a huge impact in her community!
+* We meet the guys from [CanO Water][canowater] who’ve had the brilliant idea of mineral water in a resealable can as an alternative to plastic bottles. The cans look and taste great!
 
 <div class="Blog__Post--image_3-col row">
   <div class="col-xs-12 col-sm-4">
