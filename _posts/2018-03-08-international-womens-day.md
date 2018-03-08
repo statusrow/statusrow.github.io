@@ -2,7 +2,7 @@
 layout: post
 title: International Women's Day
 subtitle: Celebrating the women in the ocean rowing community
-description: Status Row sits down with Coach Andy Bruce to discuss the mental training that goes into preparing to row across the Atlantic.
+description: Status Row celebrating the women in the ocean rowing community for International Women's Day.
 date: 2018-03-08
 author: Caroline Wilson
 ---
