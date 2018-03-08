@@ -26,7 +26,7 @@ We wanted to use International Women's Day an an opportunity to celebrate the ac
     <img alt="Atlantic Ladies" src="/assets/images/blogs/international_womens_day/atlantic_ladies.jpg" />
   </div>
   <div class="IWD__Card--quote">
-    Prepare for such a challenge as well as you can.. women are good at that. Choose your wet wipes carefully.. no chemicals. IT is a huge challenge, break it down into bite size pieces every step of the way. Be minimal.
+    Prepare for such a challenge as well as you can.. women are good at that. Choose your wet wipes carefully.. no chemicals. It is a huge challenge, break it down into bite size pieces every step of the way. Be minimal.
   </div>
 </div>
 
@@ -59,7 +59,7 @@ Mary was part of a team of women who became the first British women to row acros
 </div>
 
 
-Sarah took part in the 2015 Talisker Whisky Atlantic Challenge in team [Atlantic Endeavour][ae]. They made their crossing in 55 days.
+Sarah took part in the 2016 Talisker Whisky Atlantic Challenge in team [Atlantic Endeavour][ae]. They made their crossing in 55 days.
 
 ## [Lauren Morton][lm]
 <div class="IWD__Card">
