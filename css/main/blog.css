@@ -28,6 +28,9 @@
   display: flex;
   align-items: center;
 }
+.Blog__Post--hero h1 {
+  font-size: 40px;
+}
 .Blog__Post--content ul {
   display: block;
   list-style-type: disc;
@@ -61,6 +64,10 @@
 @media only screen and (min-width: 768px) {
   .IWD__Card {
     flex-direction: row;
+  }
+  .
+  .Blog__Post--hero h1 {
+    font-size: 50px;
   }
 }
 .IWD__Card:nth-child(even) {

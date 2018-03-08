@@ -16,6 +16,9 @@ author: Caroline Wilson
 
 We wanted to use International Women's Day an an opportunity to celebrate the achievements of some of the incredible women in the ocean community that have gone before us and inspired us to take on this epic challenge. We reached out to ask for some words of wisdom and inspiration to share with you all.
 
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/xrEljXwkcIA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 ## [Atlantic Ladies][al]
 <div class="IWD__Card">
