@@ -48,6 +48,38 @@
   text-align: center;
   margin: 20px auto;
 }
+
+.IWD__Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  border: 1px solid #dddfe2;
+}
+
+@media only screen and (min-width: 768px) {
+  .IWD__Card {
+    flex-direction: row;
+  }
+}
+.IWD__Card:nth-child(even) {
+}
+.IWD__Card--image {
+  max-width: 30%;
+}
+.IWD__Card--quote {
+  padding: 30px;
+  font-size: 18px;
+}
+.Blog__Post--content > .container > .IWD__Card > .IWD__Card--image > img {
+  max-width: 100%;
+  max-height: 800px;
+  float: none;
+  padding: 0;
+  margin: 0;
+}
+
 .post-date {
   font-style: italic;
 }
