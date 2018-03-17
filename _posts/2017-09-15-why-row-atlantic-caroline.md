@@ -24,7 +24,7 @@ Heading to the pub for a post-climb debrief, we read up about the race; the more
 
 So an ocean row ticked all my challenge boxes, but why sign up to the race? Why not just row it alone? One of the biggest reasons we wanted to do this as part of an organised race event is to benefit from the exposure the race receives. For us, it was important to leverage this global stage as a platform for raising awareness of the global problem of plastic pollution. Thanks to the strength of this incredible platform, previous race competitors have raised huge amounts for their chosen charities, and we plan to do the same for the [Marine Conservation Society][mcs].
 
-![Caroline out canoeing in Scotland](/img/team/caroline.jpg)
+![Caroline out canoeing in Scotland](/img/team/caroline.png)
 
 I was fortunate enough to grow up in the beautiful English countryside, spending holidays camping by some of Britain's finest beach destinations. I’ve always loved playing the sea and spending time outdoors. But our fragile ecosystem is threatened by human behaviour. Plastic pollution isn’t an issue faced by previous generations; it’s a modern day issue that has rapidly spiralled out of control.
 
