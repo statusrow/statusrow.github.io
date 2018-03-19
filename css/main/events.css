@@ -1,0 +1,20 @@
+.Event {
+  display: flex;
+  flex-direction: column;
+}
+.Event__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .Event {
+    flex-direction: row;
+  }
+  .Event__content {
+    padding-right: 1rem;
+    max-width: 30%;
+  }
+}
