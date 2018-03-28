@@ -137,6 +137,28 @@ ul.Social-icons > li {
   padding: 10px;
   margin: 10px;
 }
+
+.Partner__Level--gold {
+  margin: 30px auto;
+}
+.Partner__Level--gold .Partner--logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Partner__Level--gold .Partner--content p {
+  font-size: 14px;
+}
+.Partner__Level--gold img {
+  max-width: 100%;
+  margin: 20px auto;
+}
+@media only screen and (min-width: 768px) {
+  .Partner__Level--gold .PartnerTile {
+    width: 50%;
+  }
+}
  /* Exposure */
  .Exposure {
    text-align: center;
