@@ -2,10 +2,18 @@
 layout: post
 title: March Roundup
 subtitle:
-description:
-date: 2018-04-02
+description: Making headlines, diving in at the deep end and taking on a new sponsor.
+date: 2018-04-09
 author: Susan Ronaldson
 ---
+[press]: http://www.statusrow.com/press
+[events]: http://www.statusrow.com/events
+[tickets]: https://www.tickettailor.com/events/statusrow/157883
+[green]: http://www.greenmatters.com/news/2018/03/30/ZLYlLu/women-atlantic-plastic
+[Livekindly]: https://www.livekindly.co/female-trio-row-atlantic-awareness-plastic-pollution/
+[vegan]: http://www.veganfoodandliving.com/meet-the-team-of-vegan-woman-who-is-rowing-the-atlantic-to-fight-plastic-pollution/
+[canvas]: https://www.eventbrite.co.uk/e/stories-from-adventuring-women-tickets-44261991809#tickets
+
 How has a quarter of the year gone by already? In less than 250 days we will be on the start line in La
 Gomera… and there is still so much to do… But we managed to pack in a whole bundle of training, talks
 and larks in March, including:
@@ -35,7 +43,7 @@ vital as getting our bodies in shape.
 week!
 
 ## In other news..
-* It’s been a busy press month with articles in Vegan News, Livekindly and Green Matters.
+* It’s been a busy press month with articles in [Vegan Food][vegan], [Livekindly][Livekindly] and [Green Matters][green]. See more of our press coverage [here][press].
 * We were inspired at an evening of Wild Words and Inspiration, organised by fellow female trio ocean
 rowers, Terrific Pacific. We learnt about the history of ocean rowing, the adventures of the amazing Alex
 Mason on the Pacific Coast Trail and met one of our inspirations; Roz Savage who has rowed 3 oceans
@@ -45,11 +53,12 @@ all over the world.
 
 
 ## Coming Up
-* Lots of speaking – 3 April at Unfinished Business, 18 April at the Canvass Café, 19 April at Medalia and
+* Lots of speaking – 3 April at Unfinished Business, 18 April at [the Canvas Café][canvas], 19 April at Medalia and
 30 April Quadrant, Chelmsford.
 * Our screening of a Plastic Ocean is confirmed at the Whirled Cinema, Brixton on 17 May – come along
 and see the film, hear from the Status Row crew and get your plastic free goody bag! Tickets available
-here.
+[here][tickets].
 * We’ll also be attending the screening of A Plastic Ocean as part of the St Albans Sustainability Week, appearing
 on the panel for a Q&amp;A.
 * We’re very excited to hit Caroline’s home village for the Kimpton May Festival on 3 May!
+* See our full line up of events [here][events].
