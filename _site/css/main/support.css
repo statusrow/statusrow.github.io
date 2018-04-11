@@ -292,3 +292,9 @@
 .Quotes__card a:hover {
   color: var(--blue-dark);
 }
+
+@media only screen and (min-width: 768px) {
+  .club100.Quotes__list > .Quotes__card {
+    max-width: 33%;
+  }
+}
