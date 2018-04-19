@@ -157,13 +157,22 @@ ul.Social-icons > li {
 .Partner__Level--bronze .Partner--content:hover {
   box-shadow: 0 0 10px 0px #EEE;
 }
-
+.Partner__Level--bronze .Partner--content {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  min-height: 240px;
+}
 .Partner__Level--bronze img {
   max-width: 300px;
   max-height: 130px;
-  padding: 10px;
-  margin: 10px;
 }
+
+.Partner__Level--bronze .Partner--bio p {
+  font-size: 11.5px;
+  margin-bottom: 0;
+}
+
 .Partner__Level--product img {
   max-width: 150px;
   max-height: 130px;
