@@ -24,12 +24,80 @@
 }
 /* Blog - Hero */
 .Blog__Post--hero {
-  min-height: 60vh;
+  min-height: 30vh;
   display: flex;
   align-items: center;
+  padding: 0 15px;
+}
+@media only screen and (min-width: 768px) {
+  .Blog__Post--hero {
+    min-height: 60vh;
+    padding: 0 30px;
+  }
 }
 .Blog__Post--hero h1 {
   font-size: 40px;
+}
+.Blog__Post--container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .Blog__Post--container {
+    padding: 0 30px;
+    flex-direction: row;
+  }
+}
+.Blog__Post--content,
+.Blog__Post_related {
+  display: inline-block;
+}
+.Blog__Post_related {
+  width: 100%;
+  background-color: #eee;
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .Blog__Post_related {
+    padding-left: 15px;
+    width: 300px;
+  }
+}
+.Blog__Post_related h3 {
+  font-size: 22px;
+}
+.Blog__Post_related--card {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  background-color: #fff;
+}
+.Blog__Post_related--card:hover {
+  box-shadow: 0 0 10px 0px #9d9d9d;
+}
+.Blog__Post_related--card a h3 {
+  margin: 0 auto 10px;
+  font-size: 18px;
+}
+.Blog__Post_related--card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.Blog__Post_related--card .post-date {
+  font-size: 14px;
+}
+.Blog__Post--content {
+  border-top: 1px solid #eee;
+}
+@media only screen and (min-width: 768px) {
+  .Blog__Post--content {
+    padding-right: 15px;
+    max-width: 75%;
+  }
 }
 .Blog__Post--content ul {
   display: block;
@@ -65,7 +133,7 @@
   .IWD__Card {
     flex-direction: row;
   }
-  
+
   .Blog__Post--hero h1 {
     font-size: 50px;
   }
