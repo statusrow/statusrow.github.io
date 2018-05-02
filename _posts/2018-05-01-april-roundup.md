@@ -19,7 +19,7 @@ Another jam-packed month for the team, who have been working hard to share the w
 
 ## SPONSORS/FUNDRAISING
 * [Rainbow Brands][rainbow] have joined us as a bronze supporter! These guys are on a mission to promote healthy lifestyles to alleviate stress. Who doesn't love that!
-* We've created a new [Headline Sponsorship package][headline].
+* We've created a new [Title Sponsorship package][headline].
 
 <a class="btn btn-default btn-primary btn-lg" href="http://www.statusrow.com/support">SPONSOR THE TEAM</a>
 
