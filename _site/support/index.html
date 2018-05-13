@@ -141,7 +141,7 @@
 
     <div class="SupportContent__Menu">
       <div onclick="showStory()" class="active" id="menuStory">Our Story</div>
-      <div onclick="showSupportoars()" id="menuSupportoar">Support-oars (61)</div>
+      <div onclick="showSupportoars()" id="menuSupportoar">Support-oars (62)</div>
       <div onclick="showMessages()" id="menuMessages">Messages (59)</div>
     </div>
 
@@ -175,6 +175,21 @@
     <div id="supportoars" class="suppress">
       <div class="Support__SupportOars">
         <div class="Support__SupportOarGrid">
+
+          <div class="SupportOar__tile">
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_name">Tim</p>
+              <p class="SupportOar__tile_when" id="SupportOar__tile--62">
+                <script>
+                  var time = moment('2018-05-11').startOf('day').fromNow();
+                  document.getElementById('SupportOar__tile--62').innerHTML = time;
+                </script>
+              </p>
+            </div>
+            <div class="SupportOar__tile_headine">
+              <p class="SupportOar__tile_message">What an inspiring cause and an amazing challenge! Good luck to you all.</p>
+            </div>
+          </div>
 
           <div class="SupportOar__tile">
             <div class="SupportOar__tile_headine">
