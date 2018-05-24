@@ -80,7 +80,10 @@ header nav.navbar.navbar-default .navbar-header a img{
     align-items: center;
   }
 }
-
+.privacy {
+  text-align: center;
+  color: #fff;
+}
 /* Social icons list */
 ul.Social-icons {
   text-align: center;
