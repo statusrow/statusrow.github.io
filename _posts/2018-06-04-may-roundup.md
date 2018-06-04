@@ -56,6 +56,19 @@ Thanks to everyone who came and keep showing off your Status Row tote bags!
 * Suze shared the Status Row mission with the Chelmsford Explorers who all made pledges to cut their
 own plastic use.
 
+<div class="Blog__Post--image_3-col row">
+  <div class="col-xs-12 col-sm-4">
+    <img class="Blog__Post--image" alt="Jess preparing the plastic-free goodie bags" src="/assets/images/blogs/may_roundup/plastic_free_goodie_bags.jpg" />
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img class="Blog__Post--image" alt="A Plastic Ocean at Whirled Cinema" src="/assets/images/blogs/may_roundup/whirled_cinema.jpg" />
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <img class="Blog__Post--image" alt="Kimpton May Festival" src="/assets/images/blogs/may_roundup/kimpton_may_festival.jpg" />
+  </div>
+</div>
+
+
 ## Training
 * We were incredibly lucky to have an afternoon coaching in Henley, from Guin Batten, Olympic medallist
 and Atlantic rowing record holder. Legs, back, arms… arms, back, legs- repeat! Keep that back straight
