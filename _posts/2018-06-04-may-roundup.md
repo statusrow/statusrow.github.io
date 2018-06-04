@@ -17,6 +17,25 @@ first female trio to row the Atlantic in February. She’s a fantastic boat, cra
 builders. We’re honoured to become her guardians as we take over the female trio ocean rowing mantle
 from Di, Sharon and Elaine.
 
+<div class="Blog__Post--image_3-col row">
+  <div class="col-xs-12 col-sm-4">
+    <figure>
+      <img class="Blog__Post--image" alt="Susan with the toilet" src="/assets/images/blogs/may_roundup/caroline_jess_poppy.jpg" />
+  </figure>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <figure>
+      <img class="Blog__Post--image" alt="Susan at the gym" src="/assets/images/blogs/may_roundup/meet_our_boat_poppy.jpg" />
+    </figure>
+  </div>
+  <div class="col-xs-12 col-sm-4">
+    <figure>
+      <img class="Blog__Post--image" alt="Susan with the toilet" src="/assets/images/blogs/may_roundup/susan_poppy.jpg" />
+  </figure>
+  </div>
+</div>
+
+
 ## Sponsors and Fundraising
 * The Ministry of Start-ups – which has more than 10 different coworking spaces in London &amp; Lisbon,
 providing space for freelancers, startups and small businesses – kindly agreed to donate the proceeds of
@@ -43,7 +62,6 @@ and Atlantic rowing record holder. Legs, back, arms… arms, back, legs- repeat!
 Suze!
 * More pushing and pulling, squats and hinging in the gym, and hours rowing on the indoor rower as we
 rack up the kilograms and kilometres needed to get us in ocean rowing shape.
-
 
 ## Press and social media
 
