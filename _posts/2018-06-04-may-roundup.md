@@ -30,6 +30,7 @@ As the clocked ticked down to just 200 days to the starting gun, this May have b
 ## Training
 * We were incredibly lucky to have an afternoon coaching in Henley, from Guin Batten, Olympic medallist and Atlantic rowing record holder. Legs, back, arms… arms, back, legs- repeat! Keep that back straight Suze!
 * More pushing and pulling, squats and hinging in the gym, and hours rowing on the indoor rower as we rack up the kilograms and kilometres needed to get us in ocean rowing shape.
+* Caroline went back to Mile End Climbing Wall, where it all began, and can conclude that she's still terrible at climbing!
 
 ## Press and social media
 * We hit 7500 twitter followers!

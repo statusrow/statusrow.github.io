@@ -3,15 +3,17 @@ layout: post
 title: How's the training going?
 subtitle: The question everyone wants to know
 description:
-date: 2018-05-08
+date: 2018-06-03
 author: Susan Ronaldson
 ---
 When we first started telling people that we’d had this great idea to row an ocean, soon after exclaiming we were mad, they would ask us a series of questions to try and make sense of it. The most common things people wanted to know were:
+
 * Where do you go to the toilet?
 * Where do you sleep?
 * What do you eat?
 
 Now that most people in our lives know about our challenge and have the answers to the basics, we’ve noticed that there is one question that now dominates. Indeed, I would say that I answer it around 3-5 times every day! How is the training going??
+
 It’s weird but it is a question that actually generates some guilt in me. Having watched numerous documentaries or read books and articles on athletes, especially amateurs who have had to fit it in around their jobs, I feel I should be telling you that I am getting up at 5am, rowing for 2 hours, doing a gym session in my lunch break and then returning to the gym for more after work. I’m afraid that it is not like that at all!
 
 We got a great piece of advice recently from Guin Batten, Olympic silver medallist and part of the world record holding crew for the West to East Atlantic row (the ‘wrong way’). She said that we have to recognise that our time for training is actually limited and so to be realistic. Alongside our full-time jobs, we have the fundraising, event organising, planning and non-physical training and learning that you’ve heard us go on about! It’s about doing what we can alongside all that to be as prepared as possible. We are definitely not slacking though and it does take a lot of dedication to train even when you’re already exhausted. For me I try to do at least 3 gym sessions and 2-3 indoor rows a week- but some weeks even that is hard to fit in.
