@@ -52,7 +52,7 @@ who took part in that and our raffle. It was also lovely to see Shelchouk of our
 who popped by to say hello.
 * We went south of the river for our very own, sell out screening of A Plastic Ocean at the Whirled
 Cinema– the feature length documentary that inspired us to join the fight against plastic pollution.
-Thanks to everyone who came and keep showing off your Status Row tote bags!
+Thanks to everyone who came and keep showing off your Status Row tote bags! A huge thank you to <a href="http://lovingearth.com/" target="_blank">Loving Earth</a> and <a href="https://snact.co.uk/" target="_blank">Snact</a> for providing the treats in the plastic-free goodie bags, and to <a href="https://www.ecotogo.eco/" target="_blank">Eco to Go</a>, <a href="https://leon.co/" target="_blank">Leon</a> and <a href="http://www.sodastream.co.uk/" target="_blank">SodaStream</a> for donating the raffle prizes.
 * Suze shared the Status Row mission with the Chelmsford Explorers who all made pledges to cut their
 own plastic use.
 
