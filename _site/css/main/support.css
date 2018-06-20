@@ -35,31 +35,6 @@
 .SupportHero__Targets p {
   margin-bottom: 0;
 }
-.SupportHero__Progress {
-  width: 90%;
-  border-radius: 5px;
-  margin: 1rem 0;
-}
-.SupportHero__Progress--bar {
-  content: '';
-  display: block;
-  height: 10px;
-  width: 100%;
-  background-color: lightgrey;
-  position: relative;
-  border-radius: 5px;
-}
-
-.SupportHero__Progress--progress {
-  position: absolute;
-  top: 0;
-  content: '';
-  display: block;
-  height: 10px;
-  width: 37%;
-  background-color: var(--blue--dark);
-  border-radius: 5px 0 0 5px;
-}
 
 .SupportHero__Social {
   display: flex;
