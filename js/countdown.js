@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){ 
+document.addEventListener('DOMContentLoaded', function(){
   var startDate = new Date("Dec 12, 2018 06:00:00").getTime();
 
   var countdownfunction = setInterval(function() {
@@ -23,4 +23,21 @@ document.addEventListener('DOMContentLoaded', function(){
       }
   }, 1000);
 
-}, false);
+  function setBackgroundImage() {
+    var images = [
+      "url(/assets/images/Talisker_Whisky_Atlantic_Challenge_Status_Row_Plastic_Pollution_1.jpg)",
+      "url(/assets/images/Talisker_Whisky_Atlantic_Challenge_Status_Row_Plastic_Pollution_2.jpg)",
+      "url(/assets/images/Talisker_Whisky_Atlantic_Challenge_Status_Row_Plastic_Pollution_3.jpg)"
+    ];
+
+    var x = document.getElementsByClassName("Hero__Global");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.backgroundImage = images[Math.floor(Math.random() * images.length)];
+    }
+
+  }
+
+  setBackgroundImage();
+
+});

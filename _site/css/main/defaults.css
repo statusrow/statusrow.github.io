@@ -55,12 +55,6 @@ p {
   color: var(--blue--dark);
   margin-bottom: 20px;
 }
-.credit {
-  font-size: 12px;
-  text-align: right;
-  margin: 5px 5px;
-  font-style: italic;
-}
 
 /* ELEMENT DEFAULTS */
 ul {
@@ -79,6 +73,9 @@ a:focus,
 a:active {
   text-decoration: none !important;
   color: var(--blue--primary);
+}
+section {
+  padding-top: 20px;
 }
 .btn {
   text-transform: uppercase;
