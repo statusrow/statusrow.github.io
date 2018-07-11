@@ -4,7 +4,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
       var bottlesPerSecond = (6341 *2);
       total = total + bottlesPerSecond;
-      document.getElementById("totalBottles").innerHTML = total.toLocaleString('en');
+      var bottlesElem = document.getElementById("totalBottles");
+
+      if (bottlesElem) {
+        bottlesElem.innerHTML = total.toLocaleString('en');
+      }
+      
   }, 2000);
 
 }, false);

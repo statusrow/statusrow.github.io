@@ -12,10 +12,17 @@ document.addEventListener('DOMContentLoaded', function(){
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      document.getElementById("countdown-days").innerHTML = days;
-      document.getElementById("countdown-hrs").innerHTML = hours;
-      document.getElementById("countdown-mins").innerHTML = minutes;
-      document.getElementById("countdown-secs").innerHTML = seconds;
+      var daysElem = document.getElementById("countdown-days");
+      var hoursElem = document.getElementById("countdown-hrs");
+      var minutesElem = document.getElementById("countdown-mins");
+      var secondsElem = document.getElementById("countdown-secs");
+
+      if (daysElem && hoursElem && minutesElem && secondsElem) {
+        daysElem.innerHTML = days;
+        hoursElem.innerHTML = hours;
+        minutesElem.innerHTML = minutes;
+        secondsElem.innerHTML = seconds;
+      }
 
       if (distance < 0) {
         clearInterval(countdownfunction);
