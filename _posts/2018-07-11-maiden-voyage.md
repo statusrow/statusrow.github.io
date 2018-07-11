@@ -122,7 +122,7 @@ Apparently the World Cup is going on, and Susan tells me it’s a big deal. So m
   </div>
   <div class="col-xs-12 col-sm-4">
     <figure>
-      <img class="Blog__Post--image" alt="Getting cosy" src="/assets/images/blogs/maiden_voyage/getting_cosy.jpg" />
+      <img class="Blog__Post--image" alt="Caroline loves football" src="/assets/images/blogs/maiden_voyage/caroline_loves_football.jpg" />
     </figure>
   </div>
 </div>
