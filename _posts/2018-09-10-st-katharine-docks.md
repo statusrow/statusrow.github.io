@@ -12,6 +12,7 @@ author: Caroline Wilson
 [eco]: https://www.ecotogo.eco/
 [SodaStream]: http://www.sodastream.co.uk/
 [gloriana]: https://www.glorianaqrb.org.uk/
+[facebook]: https://www.facebook.com/media/set/?set=a.1778347855612401&type=1&l=5df017ab24
 
 Every year, St Katharine Docks, the marina next to London’s Tower Bridge, hosts the Classic Boat Festival. This year, we were lucky enough to be asked to take part.
 
@@ -60,7 +61,10 @@ Friday rolled around in no time (thanks to an epic 10 hour rowing competition at
 </div>
 
 
-We met so many wonderful people and were overwhelmed with the support from our families, friends, the classic boat community, marina residents and general public. It was really a weekend to remember! Head over to our Facebook page to see all the pictures from the weekend.
+We met so many wonderful people and were overwhelmed with the support from our families, friends, the classic boat community, marina residents and general public. It was really a weekend to remember!
+
+## Head over to our [Facebook page][facebook] to see all the pictures from the weekend!
+
 
 Thanks to Paul and the team at St Katharine Docks for putting on a such wonderful weekend and allowing us to be a part of it.
 
