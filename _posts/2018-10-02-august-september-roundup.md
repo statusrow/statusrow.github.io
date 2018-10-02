@@ -11,6 +11,7 @@ author: Susan Ronaldson
 [unwrpd]: /2018/09/17/unwrpd-supports-status-row.html
 [press]: /press
 [partners]: /partners
+[support]: /support
 
 Wow, we were so busy doing and not writing a month ago - so now it’s two for the price of one as we catch up on what the crew and Poppy have been up to!
 
@@ -123,6 +124,8 @@ As we write there are just 71 days to the start! So keep in mind:
   </div>
 </div>
 
-The good news is that we will be at the start line- but we can’t yet afford to get us or Poppy home again! So if you have been thinking of donating, thank you- please log on to [www.statusrow.com][sr]	today!
+It's been a busy couple of months, and we're incredibly happy to let you know that we've raised enough money to reach the start line! However, we can’t yet afford to get us or Poppy home again!
+
+## If you've been thinking of supporting the team, thank you. Please head to our [support page][support] to make a donation today.
 
 Thank you!!!
