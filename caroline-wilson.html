@@ -1,0 +1,96 @@
+---
+layout: page
+title: Caroline Wilson
+description: Meet Caroline Wilson. Hertfordshire born, now an East London local, meet Caroline from team Status Row.
+permalink: /caroline-wilson/
+---
+
+    <!-- Slider Start -->
+<section class="Hero__Global">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>Caroline Wilson</h1>
+      </div>
+      <div class="col-md-5">
+        <div class="avater-container">
+          <img src="{{ site.baseurl }}/assets/images/team/caroline.png" alt="Caroline Wilson from team Status Row" class="Image--circle"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Content Start -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p>Caroline is a website developer living in Hackney, East London and known amoungst her friends for her love of sleeping for 10 hours at a time (an ideal skill for a crew that will be rowing 24 hours a day and sleeping for no more than 1.5 hours at a time). When she's not sleeping, you'll find her attached to her computer, or out running, cycling, climbing or hiking across some form of land mass.</p>
+      <p>An amateur in every sense of the word, Caroline hadn't sat on a rowing machine before deciding to take on this challenge. Growing up in the small village of Kimpton, nestled in the Hertfordshire countryside, she was always spending time outdoors, but it wasn't until she returned to the UK after an extended gap year post-University and an unexpected TM diagnosis, that Caroline got back into sport.</p>
+
+      <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/2017/09/15/why-row-atlantic-caroline.html">Here's why I'm rowing the Atlantic</a>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <br />
+      <h2>Question Time</h2>
+      <p>Tweet your questions to <a href="https://twitter.com/StatusRow" target="_blank">@statusrow</a>!</p>
+      <br />
+
+      <h4>What accomplishment are you most proud of?</h4>
+      <p>My recent career change. I'd been working for years in a career that I was very unhappy in but was too scared of what might happen to change. It was honestly the best thing I've done and has given me the confidence to believe that no matter what route you choose, you'll make it work.</p>
+
+      <h4>What’s the most beautiful place you’ve ever been?</h4>
+      <p>Peru. I've been fortunate enough to visit twice now and have been absolutely captivated by the beauty and variety of landscapes this incredible country has to offer. Natural and manmade, from the inspiring Machu Picchu to the Colca Canyon, to Lake Titicaca, there's just so much variety. It's incredible, I could explore there forever.</p>
+
+      <h4>What’s your favorite ice cream flavor?</h4>
+      <p>Booja-Booja pecan salted caramel. OMG, it's like heaven.</p>
+
+      <h4>What’s the most courageous thing you’ve ever done?</h4>
+      <p>This, right now. There are just so many uncertainties I'm out of my comfort zone in so many ways.</p>
+
+      <h4>If you had to live in a different country, what would it be?</h4>
+      <p>I think either New Zealand or Canada. Or Norway actually. Anywhere where the outdoors is baked into your lifestyle and I can still find work.</p>
+
+      <h4>When you’re having a bad day, what do you do to make yourself feel better?</h4>
+      <p>Eat Hobnobs. I wish it was more profound but I have a terrible snacking problem which is worse when I'm stressed. I also eat Hobnobs when I'm having a good day, just the volume is slightly greater when it's bad!</p>
+
+      <h4>Cake or pie?</h4>
+      <p>Cake. 100 times over (so long as it's vegan!)</p>
+
+      <h4>If you could shop for free at one store, which one would you choose?</h4>
+      <p>Decathlon. It has EVERYTHING I could need. It's like an adventure everytime I go. Love it.</p>
+
+      <h4>What is the best piece of advice you’ve received?</h4>
+      <p>Be yourself, you're not the same as everyone else.</p>
+
+      <h4>Which of the Seven Dwarfs is most like you?</h4>
+      <p>Sleepy. Or Sneezy... I sneeze a lot.</p>
+
+    </div>
+  </div>
+
+  <br />
+  <div class="row">
+    <div class="col-xs-12">
+      <h3>Updates from Caroline</h3>
+        <div class="Post__Grid">
+        {% for post in site.posts %}
+          {% if post.author == "Caroline Wilson" %}
+            <div class="Post__Grid--card">
+              <a href="{{ post.url | prepend: site.baseurl }}" class="bold"><h3>{{ post.title }}</h3></a>
+              <p>{{ post.subtitle }}</p>
+              <p class="post-date">{{ post.date | date_to_string }}</p>
+              <p>
+                {{ post.content | strip_html | truncatewords: 20 }}
+              </p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-secondary btn-lg">Read more</a>
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+.Event {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  box-shadow: 0 0 3px 0 #d3d3d3;
+  margin-top: 1.5rem;
+}
+
+
+.Event__image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: content-box;
+}
+
+.Event__image img {
+  max-width: 100%;
+  max-height: 350px;
+}
+.Event__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .Event {
+    flex-direction: row;
+  }
+  .Event__content {
+    padding-right: 1rem;
+    width: 100%;
+  }
+  .Event__image {
+    padding-left: 1rem;
+    width: 100%;
+  }
+}
