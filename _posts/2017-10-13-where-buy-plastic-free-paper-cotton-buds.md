@@ -48,43 +48,35 @@ Know somewhere we’ve missed? [Tweet us][twitter] to let us know!
 
 (_Prices and retailers correct at time of publish._)
 
-### On the high street
+Brand   	    | Retailer  	                | Price
+---	          |---	                        |---
+Boots   	    | [Boots][boots]   	          | £0.59
+Sainsbury's   | [Sainsbury's][sainos]       | £0.50
+Johnsons   	  | [Asda][asda]   	            | £0.90
+Johnsons   	  | [Tesco][tesco]   	          | £1.00
+Johnsons   	  | [Superdrug][superdrug]      | £1.05
+Johnsons   	  | [Boots][boots_johnsons]     | £1.05
+Ellisons   	  | [Ellisons][ellisons]   	    | £1.15
+Simple Gentle | [Simple Gentle][sg]   	    | £2.15
+Organyc   	  | [Holland &amp; Barrett][hb] | £2.69
 
-## Own Brand
-200 cotton buds
 
-#### [Boots][boots] -  £0.59
-#### [Sainsbury's][sainos] - £0.50
 
-## Branded
--
-#### Organyc
-200 buds, 100% organic cotton buds, certified by Eco-Cert
-#### [Holland &amp; Barrett][hb] - £2.69
+____
+#### Descriptions
 
---  
-#### Johnsons
+"200 cotton buds"
+- Boots &amp; Sainsbury's
 
-200 buds, 100% Pure cotton
+"200 buds, 100% Pure cotton"
+- Johnsons
 
-#### [Asda][asda] - £0.90
-#### [Tesco][tesco] - £1.00
-#### [Superdrug][superdrug] - £1.05
-#### [Boots][boots_johnsons] - £1.05
+"200 buds, 100% Organic Cotton tips, FSC paper stems"
+- Simple Gentle &amp; Ellisons
 
-__
-### Online Retailers
+"200 buds, 100% organic cotton buds, certified by Eco-Cert"
+- Organyc
 
-#### Simple Gentle
-200 buds, 100% Organic Cotton tips, FSC paper stems
-#### [Simple Gentle][sg] - £2.15
-
-_
-
-#### Ellisons
-200 buds, 100% Organic Cotton tips, FSC paper stems
-#### [Ellisons][ellisons] - £1.15
-
---
+____
 
 _* Source: [38degrees.org.uk][38deg]_
