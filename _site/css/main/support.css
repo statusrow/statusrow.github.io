@@ -251,24 +251,47 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   color: var(--blue--dark);
-  background-color: #f5f5f5;
   padding: 15px;
-  border-radius: 3px;
-  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px 0 #d7d7d7;
+  margin: 10px;
+  padding: 20px 40px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+}
+.Quotes__card::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--yellow);
+  z-index: 0;
+  opacity: 0.2;
 }
 .Quotes__card p {
   margin-bottom: 0;
   text-align: center;
   max-width: 100%;
   overflow: hidden;
+  z-index: 1;
 }
 .Quotes__card a:hover {
   color: var(--blue-dark);
 }
 
 @media only screen and (min-width: 768px) {
+  .Quotes__card {
+    width: auto;
+    margin: 20px 10px;
+  }
   .club100.Quotes__list > .Quotes__card {
     max-width: 33%;
   }
