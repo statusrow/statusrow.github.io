@@ -18,6 +18,14 @@ Before last year, I hadn't been to the gym for 15 years and even then I went onc
 an expedition or voyage. And I've never done much about making my dreams come true – the kid who
 dreamed of winning an Oscar never so much as joined an acting club or class.
 
+<div class="Blog__Post--image_3-col row">
+  <div class="col-xs-12">
+    <figure>
+      <img class="Blog__Post--image" alt="The prizes" src="/assets/images/blogs/who_rows_the_atlantic/susan_at_the_gym.jpg" />
+    </figure>
+  </div>
+</div>
+
 But none the less here I am, on the edge of something truly epic and it feels really quite strange. Will I be up
 to it? Will I cope with the physical demands and discomfort? Will I manage the inevitable fear? Will I be ok
 being cut off from family? Will I manage being in a small space with the same 2 people for nearly 2 months??
