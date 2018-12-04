@@ -364,3 +364,8 @@ ul.Social-icons > li {
     padding-left: 0;
   }
 }
+
+iframe.tracker {
+  width: 100%;
+  min-height: 550px;
+}
