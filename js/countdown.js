@@ -26,7 +26,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
       if (distance < 0) {
         clearInterval(countdownfunction);
-        document.getElementById("status").innerHTML = "See you in Antigua";
+        daysElem.innerHTML = 0;
+        hoursElem.innerHTML = 0;
+        minutesElem.innerHTML = 0;
+        secondsElem.innerHTML = 0;
       }
   }, 1000);
 
