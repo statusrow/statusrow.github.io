@@ -9,7 +9,7 @@
 
 /* ---- HomeHero ---- */
 .HomeHero {
-  background: linear-gradient(to right top, rgba(0, 51, 119, 0.8), rgba(100, 235, 255, 0.36)),  url(../../assets/images/team_status_row_bw.png) no-repeat;
+  background: linear-gradient(to right top, rgba(0, 51, 119, 0.8), rgba(100, 235, 255, 0.36)),  url(../../assets/images/Talisker_Whisky_Atlantic_Challenge_Status_Row_Plastic_Pollution_1.jpg) no-repeat;
   background-position-x: 70%;
   background-size: cover;
   min-height: 75vh;
@@ -50,7 +50,7 @@
     padding: 100px 0;
   }
   .HomeHero {
-    background: linear-gradient(to right top, rgba(0, 51, 119, 0.8), rgba(100, 235, 255, 0.36)),  url(../../assets/images/team_status_row_bw.png) no-repeat;
+    background: linear-gradient(to right top, rgba(0, 51, 119, 0.8), rgba(100, 235, 255, 0.36)),  url(../../assets/images/Talisker_Whisky_Atlantic_Challenge_Status_Row_Plastic_Pollution_1.jpg) no-repeat;
     background-position-x: left;
     background-position-y: 40%;
     background-size: cover;
