@@ -7,7 +7,7 @@ date: 2018-12-04
 author: Team Status Row
 ---
 
-Follow team Status Row in the Talisker Whisky Atlantic Challenge as they row 3000 miles from La Gomera in the Canaries to Antigua.
+Follow team Status Row and our boat, Poppy, in the Talisker Whisky Atlantic Challenge as they row 3000 miles from La Gomera in the Canaries to Antigua.
 Our onboard tracker will update every 4 hours so you can experience the crossing with us.
 
 ## Get the YB Races App
