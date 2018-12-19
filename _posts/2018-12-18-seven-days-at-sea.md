@@ -1,22 +1,32 @@
 ---
 layout: post
-title: Ready to Row
-subtitle: One day till race start.
-description: One day to go until the start of the 2018 Talisker Whisky Atlantic Challenge.
-date: 2018-12-11
-author: Susan Ronaldson
+title: Seven Days At Sea
+subtitle: Our first blog entry on the water
+description: The team have been in The Atlantic for 7 full days
+date: 2018-12-18
+author: Team Status Row
 ---
 
-One day to go! When you've aimed, struggled, worked hard for, dreamed of, put everything into something for months and years, it's hard to believe it when it's finally here. Tomorrow we are going to set out rowing from the marina in La Gomera, and not stop til we hit land in Antigua weeks and weeks later. Wow!
+Current position:
+N25*26'14.5
+W020*50'43.5
 
-We've been out in La Gomera for 12 days and its been fantastic. For the 18 months of our campaign we've largely been the exceptions - 3 individuals doing something completely different that most people don't entirely get. But here we're part of a community of 88. We all might be taking on the row for slightly different reasons, but we've been through similar journeys and are all experiencing the rollercoaster of emotions as we lead up to the start. Everyone is supportive and friendly - helping each other, sharing spare kit and supplies and generally banding together. We've made friends for life and there is some sadness that we won't be undertaking the next bit together - when we set off it will be just us 3 and our little boat Poppy.
+What a fantastic end to our first week at sea- a surprise visit from Skye the support yacht, skippered by the wonderful Mani. When you haven't seen another object let alone person for days, it's quite a euphoric feeling. We've just waved goodbye and the ocean is looking beautiful in the early evening- we're one happy crew. Despite the challenges...
 
-I've felt remarkably chilled since I've been here. But there are ups and downs, and lots of emotions which bubble up from time to time! Even now it feels a bit unreal and surreal. Is this really happening? I'm not the kind of person who rows oceans. Am I?
+Wow, a week! It's gone so quickly and was nothing like we'd expected. We'd been told to prepare for a very difficult first week - sea sickness, sleep deprivation, the physical adjustment of hours rowing, and the possible fear and anxiety at being out in the ocean. But rather than just getting through we all loved it from the beginning. Not even sea sick! Which is not to say that rowing 12 hours a day isn't tough- it's so tough!!
 
-I've said before that I'm only here because of my amazing friends Caroline and Jess. People here have labelled us the happy team and I'm so proud of that. We work together, laugh together, sometimes cry together... and it's our togetherness that will get us safely across- as friends and hopefully record holders!
+We were pleased with our push to get out of the canaries, each rowing 2 in 3 hours for nearly a day before switching to our planned 3 hours on / 3 off. But we quickly learned that we became inefficient in our 3rd hour, especially at night, so we've changed to less hours at night and more in the day. The waves picked up around day 3 - it's like white water rafting on a whole other scale! Huge rolling waves that pick you up and carry you - 6.1 knots is our record- even more exciting at night when you can't see them. Big 'ol rollers but they're probably not half the size they will be...
 
-Very much on our mind is the wider Status Row team. We wouldn't be here without the generous financial and other support of friends, family, colleagues and complete strangers! [people from the NAO have been incredible with their support!] We couldn't be more grateful and the thoughts of everyone will keep us going. My Mum, Dad, Sister & brother in law, and my little Nephew will be with me all the way- leaving them is the hardest thing, but having them on my team the biggest strength.
+We also learnt quickly that everything onboard other than rowing or sleeping is a faff! Things are generally uncomfortable and we're covered in bruises - mainly thanks to Winston and Derek our misbehaving oars who take any chance to give you a whack.
 
-So here we go! You can follow us on Yellow Brick - download the YB races app and select Talisker Atlantic Whisky Challenge. We hope to be able to provide updates by tweets and the odd blog. And one final request - we didn't want to do this challenge for challenge sake. It's adventure with a purpose. So while we are away, please think carefully about your use of single use plastic. And if you haven't yet, please help us raise funds for the Marine Conservation Society through our website or Virgin Giving Page. They are an amazing charity, helping to protect this one planet we call home.
+The ocean is utterly beautiful and awe inspiring. Jess was lucky enough to spot some dolphins the first night, but apart from a couple of birds and some dead flying fish there hasn't been much wildlife yet. But the sunsets and rises, the light, the waves and oh the stars!!!
 
-Thanks again for your support and we'll see you on the other side!
+But we've had challenges too. In choosing a classic rowing boat - one that doesn't catch the wind as much, we knew we'd be near the back of the fleet. Our competition is not the concept boats with their 28 day world record- but challenging against the 60 odd days it took this design last year. However that may be in doubt as quite literally- the wheels have come off!
+
+On day two one of the wheels broke on the stroke sliding seat- rowing is about pushing with your legs so being able to slide is crucial. And that seat is vital for us as we steer her with our feet from this seat. We replaced the wheel but shortly after the replacement broke too! We're currently on fix number 8 and since then, another wheel on this seat has come off, and as of last night, another wheel on the other seat... So we've lost what must be days to repairs and being only able to row with one person not two. We don't know if we have a permanent solution but just hope we can keep patching things up with glue and tape daily.
+
+It's taken a while to get into a routine but now we are we are catching up not only on chores but with nicer things like all the lovely messages from friends and family. That includes the Atlantic Ladies who took poppy across last year, and the wonderful Rowettes who have written us a message for each day.
+
+After getting really close to other teams it's strange to have no news of them. We were pleased to catch up with Men of Oar over VHF as they caught us up, after a delayed start. Don't worry, we didn't let them pass us by easily!
+
+We will get to Antigua! We don't know how long or quite how, but we remain up beat and totally determined. Our story was never about speed, it was about showing how anyone can do something extraordinary and we're feeling lucky and happy to be living our dream.
