@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Team Treats: NYE Edition
+title: Team Treats, NYE Edition
 subtitle: Celebrating New Years in the middle of The Atlantic
-description: New Years in an ocean rowing boat
+description: New Years Eve in an ocean rowing boat
 date: 2019-01-04
-author: Team Status Row
+author: Jess Rego
 ---
 
 Another week down and oh what a roller coaster it has been. Following our Christmas cheer we were hit with a few hard slow days of rowing. Safety officer Ian had told us to keep heading south but every day in that direction brought us despair. Fighting choppy waves and unhelpful winds for less than a knot of speed was disheartening and with more seat issues the team were feeling less than great. Singing slowed to a halt and there were mutinous murmurs of abandoning the southerly route and making a break for it westward. What's the worst that could happen right?
@@ -31,4 +31,4 @@ Suze had had a particularly frustrating session with #seatgate so retired early,
 
 This morning we started the new year with a lovely interview with BBC Radio 5 Live, surreal to hear the news and weather from home for the first time in weeks and exciting to get the opportunity to talk about the campaign while sitting in the middle of the Atlantic.
 
-Thank you to everyone for your continued support, we couldn't have gotten this far without you. Happiest of New Years to everyone and we look forward to reuniting shortly. 
+Thank you to everyone for your continued support, we couldn't have gotten this far without you. Happiest of New Years to everyone and we look forward to reuniting shortly.
