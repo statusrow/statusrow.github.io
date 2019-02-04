@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Master Chef: Atlantic Ocean
+title: Master Chef, Atlantic Ocean
 subtitle: The Art Of High Seas Seasoning
 description: Jess food blog
 date: 2019-02-04
