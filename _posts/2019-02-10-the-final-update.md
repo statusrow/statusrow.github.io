@@ -4,7 +4,7 @@ title: The Final Update
 subtitle: One More Before The End
 description: Jess food blog
 date: 2019-02-10
-author: Jess Rego
+author: Team Status Row
 ---
 
 Dearest friends,
