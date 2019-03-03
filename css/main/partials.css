@@ -107,9 +107,8 @@ ul.Social-icons > li {
 
 /* Hero - global */
 .Hero__Global {
-  /* background: url(../../assets/images/Talisker_Whisky_Atlantic_Challenge_Status_Row_Plastic_Pollution_2.jpg); */
   background-size: cover;
-  background-position: 70% bottom;
+  background-position: center bottom;
   min-height: 60vh;
   display: flex;
   align-items: center;
